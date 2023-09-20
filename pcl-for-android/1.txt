@@ -1,0 +1,2093 @@
+
+
+[1;35m###########################################
+### ANDROID-TOOLCHAIN setup...          ###
+###########################################[m
+
+
+************************************************************
+  This package defines both 'os' and 'os_build' 
+  Please use 'os' for libraries and 'os_build'
+  only for build-requires used for cross-building
+************************************************************
+Exporting package recipe
+android-toolchain/r21@bashbug/stable: The stored package has not changed
+android-toolchain/r21@bashbug/stable: Exported revision: 82c53ce420540f1d5f8796a863f6b717
+Configuration:
+[settings]
+arch=x86_64
+arch_build=x86_64
+build_type=Release
+compiler=gcc
+compiler.libcxx=libstdc++
+compiler.version=7
+os=Linux
+os_build=Linux
+[options]
+[build_requires]
+[env]
+
+android-toolchain/r21@bashbug/stable: Forced build from source
+Installing package: android-toolchain/r21@bashbug/stable
+Requirements
+    android-toolchain/r21@bashbug/stable from local cache - Cache
+Packages
+    android-toolchain/r21@bashbug/stable:be241241e9d4718e5bab4eb33935bbb69606bb0c - Build
+
+Installing (downloading, building) binaries...
+android-toolchain/r21@bashbug/stable: Copying sources to build folder
+android-toolchain/r21@bashbug/stable: Building your package in /home/p/.conan/data/android-toolchain/r21/bashbug/stable/build/be241241e9d4718e5bab4eb33935bbb69606bb0c
+android-toolchain/r21@bashbug/stable: Generator txt created conanbuildinfo.txt
+android-toolchain/r21@bashbug/stable: Aggregating env generators
+android-toolchain/r21@bashbug/stable: Calling build()
+android-toolchain/r21@bashbug/stable: Package 'be241241e9d4718e5bab4eb33935bbb69606bb0c' built
+android-toolchain/r21@bashbug/stable: Build folder /home/p/.conan/data/android-toolchain/r21/bashbug/stable/build/be241241e9d4718e5bab4eb33935bbb69606bb0c
+android-toolchain/r21@bashbug/stable: Generated conaninfo.txt
+android-toolchain/r21@bashbug/stable: Generated conanbuildinfo.txt
+android-toolchain/r21@bashbug/stable: Generating the package
+android-toolchain/r21@bashbug/stable: Package folder /home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c
+android-toolchain/r21@bashbug/stable: Calling package()
+android-toolchain/r21@bashbug/stable package(): Packaged 29 '.txt' files
+android-toolchain/r21@bashbug/stable package(): Packaged 748 files
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.toolchain' file: NOTICE.toolchain
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.properties' file: source.properties
+android-toolchain/r21@bashbug/stable package(): Packaged 3687 '.h' files
+android-toolchain/r21@bashbug/stable package(): Packaged 714 '.a' files
+android-toolchain/r21@bashbug/stable package(): Packaged 172 '.1' files
+android-toolchain/r21@bashbug/stable package(): Packaged 26 '.info' files
+android-toolchain/r21@bashbug/stable package(): Packaged 56 '.xn' files
+android-toolchain/r21@bashbug/stable package(): Packaged 52 '.xc' files
+android-toolchain/r21@bashbug/stable package(): Packaged 52 '.xw' files
+android-toolchain/r21@bashbug/stable package(): Packaged 56 '.x' files
+android-toolchain/r21@bashbug/stable package(): Packaged 52 '.xsc' files
+android-toolchain/r21@bashbug/stable package(): Packaged 52 '.xdw' files
+android-toolchain/r21@bashbug/stable package(): Packaged 52 '.xsw' files
+android-toolchain/r21@bashbug/stable package(): Packaged 56 '.xr' files
+android-toolchain/r21@bashbug/stable package(): Packaged 52 '.xs' files
+android-toolchain/r21@bashbug/stable package(): Packaged 52 '.xd' files
+android-toolchain/r21@bashbug/stable package(): Packaged 56 '.xu' files
+android-toolchain/r21@bashbug/stable package(): Packaged 56 '.xbn' files
+android-toolchain/r21@bashbug/stable package(): Packaged 52 '.xdc' files
+android-toolchain/r21@bashbug/stable package(): Packaged 16 '.bfd' files
+android-toolchain/r21@bashbug/stable package(): Packaged 16 '.gold' files
+android-toolchain/r21@bashbug/stable package(): Packaged 1589 '.so' files
+android-toolchain/r21@bashbug/stable package(): Packaged 415 '.o' files
+android-toolchain/r21@bashbug/stable package(): Packaged 22 '.xml' files
+android-toolchain/r21@bashbug/stable package(): Packaged 7 '.9svn' files
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.0' file: libedit.so.0
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.8svn' file: liblldb.so.9.0.8svn
+android-toolchain/r21@bashbug/stable package(): Packaged 4 '.modulemap' files: module.modulemap, module.modulemap, module.modulemap, module.modulemap
+android-toolchain/r21@bashbug/stable package(): Packaged 23 '.syms' files
+android-toolchain/r21@bashbug/stable package(): Packaged 16 '.in' files
+android-toolchain/r21@bashbug/stable package(): Packaged 821 '.py' files
+android-toolchain/r21@bashbug/stable package(): Packaged 4 '.css' files: style.css, scanview.css, content.css, menu.css
+android-toolchain/r21@bashbug/stable package(): Packaged 3 '.js' files: sorttable.js, report_html.js, script.js
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.ico' file: bugcatcher.ico
+android-toolchain/r21@bashbug/stable package(): Packaged 2 '.scpt' files: GetRadarVersion.scpt, FileRadar.scpt
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.applescript' file: clang-format-bbedit.applescript
+android-toolchain/r21@bashbug/stable package(): Packaged 3 '.el' files: clang-format.el, clang-include-fixer.el, clang-rename.el
+android-toolchain/r21@bashbug/stable package(): Packaged 21 '.sh' files
+android-toolchain/r21@bashbug/stable package(): Packaged 13 '.def' files
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.real' file: clang-tidy.real
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.lld' file: ld.lld
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.jar' file: renderscript-v8.jar
+android-toolchain/r21@bashbug/stable package(): Packaged 5 '.bc' files
+android-toolchain/r21@bashbug/stable package(): Packaged 17 '.rsh' files
+android-toolchain/r21@bashbug/stable package(): Packaged 20 '.md' files
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.cmd' file: ndk-build.cmd
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.RUNTIME' file: COPYING.RUNTIME
+android-toolchain/r21@bashbug/stable package(): Packaged 2 '.LIB' files: COPYING3.LIB, COPYING.LIB
+android-toolchain/r21@bashbug/stable package(): Packaged 8 '.html' files
+android-toolchain/r21@bashbug/stable package(): Packaged 64 '.mk' files
+android-toolchain/r21@bashbug/stable package(): Packaged 10 '.cmake' files
+android-toolchain/r21@bashbug/stable package(): Packaged 5 '.7' files
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.info-2' file: make.info-2
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.info-1' file: make.info-1
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.dtd' file: gdb-syscalls.dtd
+android-toolchain/r21@bashbug/stable package(): Packaged 3 '.pc' files: python2.pc, python-2.7.pc, python.pc
+android-toolchain/r21@bashbug/stable package(): Packaged 2 '.egg-info' files: wsgiref.egg-info, Python-2.7.5-py2.7.egg-info
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.doc' file: pdb.doc
+android-toolchain/r21@bashbug/stable package(): Packaged 5 '.exe' files
+android-toolchain/r21@bashbug/stable package(): Packaged 2 '.pickle' files: Grammar2.7.5.final.0.pickle, PatternGrammar2.7.5.final.0.pickle
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.config' file: Setup.config
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.local' file: Setup.local
+android-toolchain/r21@bashbug/stable package(): Packaged 6 '.c' files
+android-toolchain/r21@bashbug/stable package(): Packaged 3 '.bat' files: idle.bat, fetch_macholib.bat, update_external_sources_android.bat
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.pyw' file: idle.pyw
+android-toolchain/r21@bashbug/stable package(): Packaged 6 '.gif' files
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.icns' file: idle.icns
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.ctypes' file: README.ctypes
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.7-config' file: python2.7-config
+android-toolchain/r21@bashbug/stable package(): Packaged 6 '.png' files
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.b64' file: inferno.b64
+android-toolchain/r21@bashbug/stable package(): Packaged 2 '.java' files: RecordOptions.java, ProfileSession.java
+android-toolchain/r21@bashbug/stable package(): Packaged 427 '.cpp' files
+android-toolchain/r21@bashbug/stable package(): Packaged 7 '.map' files
+android-toolchain/r21@bashbug/stable package(): Packaged 37 '.json' files
+android-toolchain/r21@bashbug/stable package(): Packaged 11 '.hpp' files
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.prop' file: repo.prop
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.pro' file: proguard-rules.pro
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.gradle' file: build.gradle
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.ps1' file: _run_all_tests.ps1
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.user' file: vk_layer_validation_tests.vcxproj.user
+android-toolchain/r21@bashbug/stable package(): Packaged 83 '.cc' files
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.bazel' file: BUILD.bazel
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.pump' file: gtest-type-util.h.pump
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.template' file: revision.template
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.m4' file: glslang.m4
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.y' file: glslang.y
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.proto' file: spvtoolsfuzz.proto
+android-toolchain/r21@bashbug/stable package(): Packaged 4 '.hpp11' files: spirv.hpp11, spirv.hpp11, spirv.hpp11, spirv.hpp11
+android-toolchain/r21@bashbug/stable package(): Packaged 4 '.cs' files: spirv.cs, spirv.cs, spirv.cs, spirv.cs
+android-toolchain/r21@bashbug/stable package(): Packaged 4 '.lua' files: spirv.lua, spirv.lua, spirv.lua, spirv.lua
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.d' file: spv.d
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.inc' file: resources.inc
+android-toolchain/r21@bashbug/stable package(): Packaged 2 '.TXT' files: LICENSE.TXT, CREDITS.TXT
+android-toolchain/r21@bashbug/stable package(): Packaged 1 '.version' file: README.version
+android-toolchain/r21@bashbug/stable package(): Packaged 2 '.cfg' files: lit.cfg, lit.local.cfg
+android-toolchain/r21@bashbug/stable package(): Packaged 2 '.s' files: ttype-encoding-90.pass.sh.s, ttype-encoding-00.pass.sh.s
+android-toolchain/r21@bashbug/stable package(): Packaged 4 '.exp' files: personality-v0.exp, new-delete.exp, itanium-base.exp, personality-sjlj.exp
+android-toolchain/r21@bashbug/stable package(): Packaged 8 '.22' files
+android-toolchain/r21@bashbug/stable package(): Packaged 8 '.26' files
+android-toolchain/r21@bashbug/stable package(): Packaged 8 '.23' files
+android-toolchain/r21@bashbug/stable package(): Packaged 8 '.27' files
+android-toolchain/r21@bashbug/stable package(): Packaged 8 '.25' files
+android-toolchain/r21@bashbug/stable package(): Packaged 8 '.29' files
+android-toolchain/r21@bashbug/stable package(): Packaged 8 '.21' files
+android-toolchain/r21@bashbug/stable package(): Packaged 8 '.28' files
+android-toolchain/r21@bashbug/stable package(): Packaged 8 '.24' files
+android-toolchain/r21@bashbug/stable package(): Packaged 4 '.17' files: libc++.a.17, libc++.so.17, libc++.a.17, libc++.so.17
+android-toolchain/r21@bashbug/stable package(): Packaged 4 '.20' files: libc++.a.20, libc++.so.20, libc++.a.20, libc++.so.20
+android-toolchain/r21@bashbug/stable package(): Packaged 4 '.19' files: libc++.a.19, libc++.so.19, libc++.a.19, libc++.so.19
+android-toolchain/r21@bashbug/stable package(): Packaged 4 '.16' files: libc++.so.16, libc++.a.16, libc++.so.16, libc++.a.16
+android-toolchain/r21@bashbug/stable package(): Packaged 4 '.18' files: libc++.so.18, libc++.a.18, libc++.so.18, libc++.a.18
+android-toolchain/r21@bashbug/stable: Package 'be241241e9d4718e5bab4eb33935bbb69606bb0c' created
+android-toolchain/r21@bashbug/stable: Created package revision 4c45c80837e3e2769b41f37b0a7ff355
+android-toolchain/r21@bashbug/stable: WARN: This conanfile has no build step
+
+
+[1;35m###########################################
+### FLANN cross-compiling start...      ###
+###########################################[m
+
+
+Exporting package recipe
+lz4/1.9.2@bashbug/stable exports_sources: Copied 1 '.txt' file: CMakeLists.txt
+lz4/1.9.2@bashbug/stable: The stored package has not changed
+lz4/1.9.2@bashbug/stable: Exported revision: d8354b20ca9aab144000ba11b14594fb
+Configuration:
+[settings]
+arch=armv8
+arch_build=x86_64
+build_type=Release
+compiler=clang
+compiler.libcxx=libstdc++11
+compiler.version=8
+os=Android
+os.api_level=21
+os_build=Linux
+[options]
+[build_requires]
+*: android-toolchain/r21@bashbug/stable
+[env]
+
+lz4/1.9.2@bashbug/stable: Forced build from source
+Installing package: lz4/1.9.2@bashbug/stable
+Requirements
+    lz4/1.9.2@bashbug/stable from local cache - Cache
+Packages
+    lz4/1.9.2@bashbug/stable:4317d68676204855daddf9e93e50d037f61575ca - Build
+Build requirements
+    android-toolchain/r21@bashbug/stable from local cache - Cache
+Build requirements packages
+    android-toolchain/r21@bashbug/stable:be241241e9d4718e5bab4eb33935bbb69606bb0c - Cache
+
+Cross-build from 'Linux:x86_64' to 'Android:armv8'
+Installing (downloading, building) binaries...
+android-toolchain/r21@bashbug/stable: Already installed!
+lz4/1.9.2@bashbug/stable: Applying build-requirement: android-toolchain/r21@bashbug/stable
+lz4/1.9.2@bashbug/stable: Copying sources to build folder
+lz4/1.9.2@bashbug/stable: Building your package in /home/p/.conan/data/lz4/1.9.2/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca
+lz4/1.9.2@bashbug/stable: Generator txt created conanbuildinfo.txt
+lz4/1.9.2@bashbug/stable: Aggregating env generators
+lz4/1.9.2@bashbug/stable: Calling build()
+-- Check for working C compiler: /home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_EXPORT_NO_PACKAGE_REGISTRY
+    CMAKE_INSTALL_BINDIR
+    CMAKE_INSTALL_DATAROOTDIR
+    CMAKE_INSTALL_INCLUDEDIR
+    CMAKE_INSTALL_LIBDIR
+    CMAKE_INSTALL_LIBEXECDIR
+    CMAKE_INSTALL_OLDINCLUDEDIR
+    CMAKE_INSTALL_SBINDIR
+    CONAN_COMPILER
+    CONAN_COMPILER_VERSION
+    CONAN_EXPORTED
+    CONAN_IN_LOCAL_CACHE
+    CONAN_LIBCXX
+
+
+-- Build files have been written to: /home/p/.conan/data/lz4/1.9.2/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/armv8
+Scanning dependencies of target lz4
+[ 50%] Building C object CMakeFiles/lz4.dir/lz4/lib/lz4.c.o
+[100%] Linking C static library liblz4.a
+[100%] Built target lz4
+lz4/1.9.2@bashbug/stable: Package '4317d68676204855daddf9e93e50d037f61575ca' built
+lz4/1.9.2@bashbug/stable: Build folder /home/p/.conan/data/lz4/1.9.2/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca
+lz4/1.9.2@bashbug/stable: Generated conaninfo.txt
+lz4/1.9.2@bashbug/stable: Generated conanbuildinfo.txt
+lz4/1.9.2@bashbug/stable: Generating the package
+lz4/1.9.2@bashbug/stable: Package folder /home/p/.conan/data/lz4/1.9.2/bashbug/stable/package/4317d68676204855daddf9e93e50d037f61575ca
+lz4/1.9.2@bashbug/stable: Calling package()
+lz4/1.9.2@bashbug/stable package(): Packaged 1 '.h' file: lz4.h
+lz4/1.9.2@bashbug/stable package(): Packaged 1 '.a' file: liblz4.a
+lz4/1.9.2@bashbug/stable: Package '4317d68676204855daddf9e93e50d037f61575ca' created
+lz4/1.9.2@bashbug/stable: Created package revision 6f4140903a7678dfdc77cfb0cf14164c
+Exporting package recipe
+flann/1.9.1@bashbug/stable: The stored package has not changed
+flann/1.9.1@bashbug/stable: Exported revision: 5d1fce81982f6177bb8f84311793cc83
+Configuration:
+[settings]
+arch=armv8
+arch_build=x86_64
+build_type=Release
+compiler=clang
+compiler.libcxx=libstdc++11
+compiler.version=8
+os=Android
+os.api_level=21
+os_build=Linux
+[options]
+[build_requires]
+*: android-toolchain/r21@bashbug/stable
+[env]
+
+flann/1.9.1@bashbug/stable: Forced build from source
+Installing package: flann/1.9.1@bashbug/stable
+Requirements
+    flann/1.9.1@bashbug/stable from local cache - Cache
+    lz4/1.9.2@bashbug/stable from local cache - Cache
+Packages
+    flann/1.9.1@bashbug/stable:0ae23ce156a999016ff3644328f7150befab40a6 - Build
+    lz4/1.9.2@bashbug/stable:4317d68676204855daddf9e93e50d037f61575ca - Cache
+Build requirements
+    android-toolchain/r21@bashbug/stable from local cache - Cache
+Build requirements packages
+    android-toolchain/r21@bashbug/stable:be241241e9d4718e5bab4eb33935bbb69606bb0c - Cache
+
+Cross-build from 'Linux:x86_64' to 'Android:armv8'
+Installing (downloading, building) binaries...
+android-toolchain/r21@bashbug/stable: Already installed!
+lz4/1.9.2@bashbug/stable: Already installed!
+flann/1.9.1@bashbug/stable: Applying build-requirement: android-toolchain/r21@bashbug/stable
+flann/1.9.1@bashbug/stable: Copying sources to build folder
+flann/1.9.1@bashbug/stable: Building your package in /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6
+flann/1.9.1@bashbug/stable: Generator txt created conanbuildinfo.txt
+flann/1.9.1@bashbug/stable: Aggregating env generators
+flann/1.9.1@bashbug/stable: Calling build()
+-- Check for working C compiler: /home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PythonInterp: /usr/bin/python (found version "2.7.17") 
+-- Could NOT find HDF5 (missing: HDF5_LIBRARIES HDF5_INCLUDE_DIRS) (found version "")
+CMake Warning at CMakeLists.txt:78 (message):
+  hdf5 library not found, some tests will not be run
+
+
+-- Could NOT find GTest (missing: GTEST_LIBRARY GTEST_INCLUDE_DIR GTEST_MAIN_LIBRARY) 
+CMake Warning at CMakeLists.txt:117 (message):
+  gtest library not found, some tests will not be run
+
+
+-- Found OpenMP_C: -fopenmp=libomp (found version "3.1") 
+-- Found OpenMP_CXX: -fopenmp=libomp (found version "3.1") 
+-- Found OpenMP: TRUE (found version "3.1")  
+-- Install prefix: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8
+-- Build type: Release
+-- Building C bindings: OFF
+-- Building examples: OFF
+-- Building tests: OFF
+-- Building documentation: OFF
+-- Building python bindings: OFF
+-- Building matlab bindings: OFF
+-- Building CUDA library: OFF
+-- Using OpenMP support: ON
+-- Using MPI support: OFF
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_EXPORT_NO_PACKAGE_REGISTRY
+    CMAKE_INSTALL_BINDIR
+    CMAKE_INSTALL_DATAROOTDIR
+    CMAKE_INSTALL_INCLUDEDIR
+    CMAKE_INSTALL_LIBDIR
+    CMAKE_INSTALL_LIBEXECDIR
+    CMAKE_INSTALL_OLDINCLUDEDIR
+    CMAKE_INSTALL_SBINDIR
+    CONAN_COMPILER
+    CONAN_COMPILER_VERSION
+    CONAN_EXPORTED
+    CONAN_IN_LOCAL_CACHE
+    CONAN_LIBCXX
+
+
+-- Build files have been written to: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8
+Scanning dependencies of target flann_cpp
+Scanning dependencies of target flann_cpp_s
+[ 25%] Building C object src/cpp/CMakeFiles/flann_cpp_s.dir/flann/ext/lz4.c.o
+[ 25%] Building CXX object src/cpp/CMakeFiles/flann_cpp_s.dir/flann/flann_cpp.cpp.o
+[ 50%] Building C object src/cpp/CMakeFiles/flann_cpp.dir/flann/ext/lz4hc.c.o
+[ 50%] Building CXX object src/cpp/CMakeFiles/flann_cpp.dir/flann/flann_cpp.cpp.o
+[ 75%] Building C object src/cpp/CMakeFiles/flann_cpp.dir/flann/ext/lz4.c.o
+[ 75%] Building C object src/cpp/CMakeFiles/flann_cpp_s.dir/flann/ext/lz4hc.c.o
+In file included from /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/src/cpp/flann/flann_cpp.cpp:30:
+In file included from /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/src/cpp/flann/flann.hpp:45:
+In file included from /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/src/cpp/flann/algorithms/all_indices.h:36:
+In file included from /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/src/cpp/flann/algorithms/kdtree_index.h:48:
+/home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/src/cpp/flann/util/random.h:120:14: warning: 'random_shuffle<std::__ndk1::__wrap_iter<int *>, flann::RandomGenerator &>' is deprecated [-Wdeprecated-declarations]
+        std::random_shuffle(vals_.begin(), vals_.end(), generator);
+             ^
+/home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/algorithm:3088:1: note: 'random_shuffle<std::__ndk1::__wrap_iter<int *>, flann::RandomGenerator &>' has been explicitly marked deprecated here
+_LIBCPP_DEPRECATED_IN_CXX14 void
+^
+/home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:947:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX14'
+#  define _LIBCPP_DEPRECATED_IN_CXX14 _LIBCPP_DEPRECATED
+                                      ^
+/home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/src/cpp/flann/flann_cpp.cpp:30:
+In file included from /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/src/cpp/flann/flann.hpp:45:
+In file included from /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/src/cpp/flann/algorithms/all_indices.h:36:
+In file included from /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/src/cpp/flann/algorithms/kdtree_index.h:48:
+/home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/src/cpp/flann/util/random.h:120:14: warning: 'random_shuffle<std::__ndk1::__wrap_iter<int *>, flann::RandomGenerator &>' is deprecated [-Wdeprecated-declarations]
+        std::random_shuffle(vals_.begin(), vals_.end(), generator);
+             ^
+/home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/algorithm:3088:1: note: 'random_shuffle<std::__ndk1::__wrap_iter<int *>, flann::RandomGenerator &>' has been explicitly marked deprecated here
+_LIBCPP_DEPRECATED_IN_CXX14 void
+^
+/home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:947:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX14'
+#  define _LIBCPP_DEPRECATED_IN_CXX14 _LIBCPP_DEPRECATED
+                                      ^
+/home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/src/cpp/flann/flann_cpp.cpp:30:
+In file included from /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/src/cpp/flann/flann.hpp:45:
+In file included from /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/src/cpp/flann/algorithms/all_indices.h:36:
+/home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/src/cpp/flann/algorithms/kdtree_index.h:268:18: warning: 'random_shuffle<std::__ndk1::__wrap_iter<int *> >' is deprecated [-Wdeprecated-declarations]
+            std::random_shuffle(ind.begin(), ind.end());
+                 ^
+/home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/algorithm:3067:1: note: 'random_shuffle<std::__ndk1::__wrap_iter<int *> >' has been explicitly marked deprecated here
+_LIBCPP_DEPRECATED_IN_CXX14 void
+^
+/home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:947:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX14'
+#  define _LIBCPP_DEPRECATED_IN_CXX14 _LIBCPP_DEPRECATED
+                                      ^
+/home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/src/cpp/flann/flann_cpp.cpp:30:
+In file included from /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/src/cpp/flann/flann.hpp:45:
+In file included from /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/src/cpp/flann/algorithms/all_indices.h:36:
+/home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/src/cpp/flann/algorithms/kdtree_index.h:268:18: warning: 'random_shuffle<std::__ndk1::__wrap_iter<int *> >' is deprecated [-Wdeprecated-declarations]
+            std::random_shuffle(ind.begin(), ind.end());
+                 ^
+/home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/algorithm:3067:1: note: 'random_shuffle<std::__ndk1::__wrap_iter<int *> >' has been explicitly marked deprecated here
+_LIBCPP_DEPRECATED_IN_CXX14 void
+^
+/home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:947:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX14'
+#  define _LIBCPP_DEPRECATED_IN_CXX14 _LIBCPP_DEPRECATED
+                                      ^
+/home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/src/cpp/flann/flann_cpp.cpp:30:
+In file included from /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/src/cpp/flann/flann.hpp:45:
+In file included from /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/src/cpp/flann/algorithms/all_indices.h:42:
+In file included from /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/src/cpp/flann/algorithms/lsh_index.h:49:
+/home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/src/cpp/flann/util/lsh_table.h:367:10: warning: 'random_shuffle<std::__ndk1::__wrap_iter<unsigned long *> >' is deprecated [-Wdeprecated-declarations]
+    std::random_shuffle(indices.begin(), indices.end());
+         ^
+/home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/algorithm:3067:1: note: 'random_shuffle<std::__ndk1::__wrap_iter<unsigned long *> >' has been explicitly marked deprecated here
+_LIBCPP_DEPRECATED_IN_CXX14 void
+^
+/home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:947:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX14'
+#  define _LIBCPP_DEPRECATED_IN_CXX14 _LIBCPP_DEPRECATED
+                                      ^
+/home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+In file included from /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/src/cpp/flann/flann_cpp.cpp:30:
+In file included from /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/src/cpp/flann/flann.hpp:45:
+In file included from /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/src/cpp/flann/algorithms/all_indices.h:42:
+In file included from /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/src/cpp/flann/algorithms/lsh_index.h:49:
+/home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/src/cpp/flann/util/lsh_table.h:367:10: warning: 'random_shuffle<std::__ndk1::__wrap_iter<unsigned long *> >' is deprecated [-Wdeprecated-declarations]
+    std::random_shuffle(indices.begin(), indices.end());
+         ^
+/home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/algorithm:3067:1: note: 'random_shuffle<std::__ndk1::__wrap_iter<unsigned long *> >' has been explicitly marked deprecated here
+_LIBCPP_DEPRECATED_IN_CXX14 void
+^
+/home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:947:39: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX14'
+#  define _LIBCPP_DEPRECATED_IN_CXX14 _LIBCPP_DEPRECATED
+                                      ^
+/home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/__config:930:48: note: expanded from macro '_LIBCPP_DEPRECATED'
+#    define _LIBCPP_DEPRECATED __attribute__ ((deprecated))
+                                               ^
+3 warnings generated.
+3 warnings generated.
+[ 87%] Linking CXX shared library ../../lib/libflann_cpp.so
+[100%] Linking CXX static library ../../lib/libflann_cpp_s.a
+[100%] Built target flann_cpp
+[100%] Built target flann_cpp_s
+flann/1.9.1@bashbug/stable: Package '0ae23ce156a999016ff3644328f7150befab40a6' built
+flann/1.9.1@bashbug/stable: Build folder /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6
+flann/1.9.1@bashbug/stable: Generated conaninfo.txt
+flann/1.9.1@bashbug/stable: Generated conanbuildinfo.txt
+flann/1.9.1@bashbug/stable: Generating the package
+flann/1.9.1@bashbug/stable: Package folder /home/p/.conan/data/flann/1.9.1/bashbug/stable/package/0ae23ce156a999016ff3644328f7150befab40a6
+flann/1.9.1@bashbug/stable: Calling package()
+-- Could NOT find HDF5 (missing: HDF5_LIBRARIES HDF5_INCLUDE_DIRS) (found version "")
+CMake Warning at CMakeLists.txt:78 (message):
+  hdf5 library not found, some tests will not be run
+
+
+-- Could NOT find GTest (missing: GTEST_LIBRARY GTEST_INCLUDE_DIR GTEST_MAIN_LIBRARY) 
+CMake Warning at CMakeLists.txt:117 (message):
+  gtest library not found, some tests will not be run
+
+
+-- Found OpenMP_C: -fopenmp=libomp  
+-- Found OpenMP_CXX: -fopenmp=libomp  
+-- Found OpenMP: TRUE   
+-- Install prefix: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8
+-- Build type: Release
+-- Building C bindings: OFF
+-- Building examples: OFF
+-- Building tests: OFF
+-- Building documentation: OFF
+-- Building python bindings: OFF
+-- Building matlab bindings: OFF
+-- Building CUDA library: OFF
+-- Using OpenMP support: ON
+-- Using MPI support: OFF
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8
+[100%] Built target flann_cpp_s
+[100%] Built target flann_cpp
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/lib/pkgconfig/flann.pc
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/defines.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/io
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/io/hdf5.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/flann.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/config.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/algorithms
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/algorithms/linear_index.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/algorithms/lsh_index.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/algorithms/kdtree_cuda_3d_index.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/algorithms/hierarchical_clustering_index.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/algorithms/kdtree_index.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/algorithms/dist.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/algorithms/composite_index.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/algorithms/nn_index.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/algorithms/kdtree_cuda_builder.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/algorithms/kmeans_index.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/algorithms/kdtree_single_index.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/algorithms/autotuned_index.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/algorithms/all_indices.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/algorithms/center_chooser.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/general.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/flann.hpp
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/ext
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/ext/lz4hc.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/ext/lz4.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/util
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/util/any.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/util/logger.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/util/params.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/util/lsh_table.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/util/result_set.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/util/heap.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/util/allocator.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/util/sampling.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/util/dynamic_bitset.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/util/timer.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/util/matrix.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/util/object_factory.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/util/cutil_math.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/util/saving.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/util/cuda
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/util/cuda/result_set.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/util/cuda/heap.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/util/random.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/util/serialization.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/mpi
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/mpi/server.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/mpi/client.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/mpi/queries.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/mpi/index.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/mpi/matrix.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/nn
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/nn/index_testing.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/nn/ground_truth.h
+-- Installing: /home/p/.conan/data/flann/1.9.1/bashbug/stable/build/0ae23ce156a999016ff3644328f7150befab40a6/armv8/include/flann/nn/simplex_downhill.h
+flann/1.9.1@bashbug/stable package(): Packaged 47 '.h' files
+flann/1.9.1@bashbug/stable package(): Packaged 1 '.hpp' file: flann.hpp
+flann/1.9.1@bashbug/stable package(): Packaged 2 '.a' files: libflann_cpp_s.a, liblz4.a
+flann/1.9.1@bashbug/stable: Package '0ae23ce156a999016ff3644328f7150befab40a6' created
+flann/1.9.1@bashbug/stable: Created package revision 7109a9d1c4e576693ccf36175e014556
+FLANN cross-compiling finished!
+
+
+[1;35m###########################################
+### BOOST cross-compiling start...      ###
+###########################################[m
+
+
+Exporting package recipe
+boost/1.76.0@bashbug/stable: The stored package has not changed
+boost/1.76.0@bashbug/stable: Exported revision: f6ebdf8988d2e238d844d4b4c630122b
+Configuration:
+[settings]
+arch=armv8
+arch_build=x86_64
+build_type=Release
+compiler=clang
+compiler.libcxx=libstdc++11
+compiler.version=8
+os=Android
+os.api_level=21
+os_build=Linux
+[options]
+[build_requires]
+*: android-toolchain/r21@bashbug/stable
+[env]
+
+boost/1.76.0@bashbug/stable: Forced build from source
+Installing package: boost/1.76.0@bashbug/stable
+Requirements
+    boost/1.76.0@bashbug/stable from local cache - Cache
+Packages
+    boost/1.76.0@bashbug/stable:4317d68676204855daddf9e93e50d037f61575ca - Build
+Build requirements
+    android-toolchain/r21@bashbug/stable from local cache - Cache
+Build requirements packages
+    android-toolchain/r21@bashbug/stable:be241241e9d4718e5bab4eb33935bbb69606bb0c - Cache
+
+Cross-build from 'Linux:x86_64' to 'Android:armv8'
+Installing (downloading, building) binaries...
+android-toolchain/r21@bashbug/stable: Already installed!
+boost/1.76.0@bashbug/stable: Applying build-requirement: android-toolchain/r21@bashbug/stable
+boost/1.76.0@bashbug/stable: Copying sources to build folder
+boost/1.76.0@bashbug/stable: Building your package in /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca
+boost/1.76.0@bashbug/stable: Generator txt created conanbuildinfo.txt
+boost/1.76.0@bashbug/stable: Aggregating env generators
+boost/1.76.0@bashbug/stable: Calling build()
+Building B2 engine..
+
+###
+###
+### Using 'gcc' toolset.
+###
+###
+
+g++ (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
+Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+###
+###
+
+> g++ -x c++ -std=c++11 -O2 -s -DNDEBUG builtins.cpp class.cpp command.cpp compile.cpp constants.cpp cwd.cpp debug.cpp debugger.cpp execcmd.cpp execnt.cpp execunix.cpp filesys.cpp filent.cpp fileunix.cpp frames.cpp function.cpp glob.cpp hash.cpp hcache.cpp hdrmacro.cpp headers.cpp jam_strings.cpp jam.cpp jamgram.cpp lists.cpp make.cpp make1.cpp md5.cpp mem.cpp modules.cpp native.cpp object.cpp option.cpp output.cpp parse.cpp pathnt.cpp pathsys.cpp pathunix.cpp regexp.cpp rules.cpp scan.cpp search.cpp startup.cpp subst.cpp sysinfo.cpp timestamp.cpp variable.cpp w32_getreg.cpp modules/order.cpp modules/path.cpp modules/property-set.cpp modules/regex.cpp modules/sequence.cpp modules/set.cpp -o b2
+> cp b2 bjam
+tools/build/src/engine/b2
+Detecting Python version... 2.7
+Detecting Python root... /usr
+Unicode/ICU support for Boost.Regex?... not found.
+Generating B2 configuration in project-config.jam for gcc...
+
+Bootstrapping is done. To build, run:
+
+    ./b2
+    
+To generate header files, run:
+
+    ./b2 headers
+
+The configuration generated uses gcc to build by default. If that is
+unintended either use the --with-toolset option or adjust configuration, by
+editing 'project-config.jam'.
+
+Further information:
+
+   - Command line help:
+     ./b2 --help
+     
+   - Getting started guide: 
+     http://www.boost.org/more/getting_started/unix-variants.html
+     
+   - B2 documentation:
+     http://www.boost.org/build/
+
+notice: found boost-build.jam at /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/boost-build.jam
+notice: loading B2 from /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/tools/build/src/bootstrap.jam
+notice: Searching '/etc' '/home/p' '/home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/tools/build/src' '/home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/tools/build/src/kernel' '/home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/tools/build/src/util' '/home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/tools/build/src/build' '/home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/tools/build/src/tools' '/home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/tools/build/src/contrib' '/home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/tools/build/src/.' for site-config configuration file 'site-config.jam'.
+notice: Configuration file 'site-config.jam' not found in '/etc' '/home/p' '/home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/tools/build/src' '/home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/tools/build/src/kernel' '/home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/tools/build/src/util' '/home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/tools/build/src/build' '/home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/tools/build/src/tools' '/home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/tools/build/src/contrib' '/home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/tools/build/src/.'.
+notice: Searching '/home/p' '/home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/tools/build/src' '/home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/tools/build/src/kernel' '/home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/tools/build/src/util' '/home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/tools/build/src/build' '/home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/tools/build/src/tools' '/home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/tools/build/src/contrib' '/home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/tools/build/src/.' for user-config configuration file 'user-config.jam'.
+notice: Loading user-config configuration file 'user-config.jam' from '/home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/tools/build/src'.
+notice: will use '/home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android21-clang++' for clang-linux, condition <toolset>clang-linux-androidos
+notice: Searching '.' for project-config configuration file 'project-config.jam'.
+notice: Loading project-config configuration file 'project-config.jam' from '.'.
+notice: [python-cfg] Configuring python...
+notice: [python-cfg]   user-specified version: "2.7"
+notice: [python-cfg]   user-specified cmd-or-prefix: "/usr"
+notice: [python-cfg] Checking interpreter command "/usr/bin/python2.7"...
+notice: [python-cfg] running command '/usr/bin/python2.7 -c "from sys import *; print('version=%d.%d\nplatform=%s\nprefix=%s\nexec_prefix=%s\nexecutable=%s' % (version_info[0],version_info[1],platform,prefix,exec_prefix,executable))" 2>&1'
+notice: [python-cfg] ...requested configuration matched!
+notice: [python-cfg] Details of this Python configuration:
+notice: [python-cfg]   interpreter command: "/usr/bin/python2.7"
+notice: [python-cfg]   include path: "/usr/include/python2.7"
+notice: [python-cfg]   library path: "/usr/lib/python2.7/config" "/usr/lib"
+notice: [python-cfg] Checking for NumPy...
+notice: [python-cfg] running command '/usr/bin/python2.7 -c "import sys; sys.stderr = sys.stdout; import numpy; print(numpy.get_include())"'
+notice: [python-cfg] NumPy disabled. Reason:
+notice: [python-cfg]   /usr/bin/python2.7 -c "import sys; sys.stderr = sys.stdout; import numpy; print(numpy.get_include())" aborted with 
+notice: [python-cfg]   Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+ImportError: No module named numpy
+notice: [zlib] Using pre-installed library
+notice: [zlib] Condition
+notice: [bzip2] Using pre-installed library
+notice: [bzip2] Condition
+notice: [lzma] Using pre-installed library
+notice: [lzma] Condition
+notice: [zstd] Using pre-installed library
+notice: [zstd] Condition
+Performing configuration checks
+
+    - default address-model    : 64-bit [1]
+    - default architecture     : arm [1]
+
+Building the Boost C++ Libraries.
+
+
+    - C++11 mutex              : yes [2]
+    - lockfree boost::atomic_flag : yes [2]
+    - has stat::st_mtim        : yes [2]
+    - has stat::st_mtimensec   : yes [2]
+    - has stat::st_mtimespec   : no [2]
+    - has stat::st_birthtim    : no [2]
+    - has stat::st_birthtimensec : no [2]
+    - has stat::st_birthtimespec : no [2]
+    - has statx                : no [2]
+    - has statx syscall        : yes [2]
+    - cxx11_auto_declarations  : yes [2]
+    - cxx11_constexpr          : yes [2]
+    - cxx11_defaulted_functions : yes [2]
+    - cxx11_final              : yes [2]
+    - cxx11_hdr_mutex          : yes [2]
+    - cxx11_hdr_tuple          : yes [2]
+    - cxx11_lambdas            : yes [2]
+    - cxx11_noexcept           : yes [2]
+    - cxx11_nullptr            : yes [2]
+    - cxx11_rvalue_references  : yes [2]
+    - cxx11_template_aliases   : yes [2]
+    - cxx11_thread_local       : yes [2]
+    - cxx11_variadic_templates : yes [2]
+    - cxx11_auto_declarations  : yes [3]
+    - cxx11_constexpr          : yes [3]
+    - cxx11_defaulted_functions : yes [3]
+    - cxx11_final              : yes [3]
+    - cxx11_hdr_mutex          : yes [3]
+    - cxx11_hdr_tuple          : yes [3]
+    - cxx11_lambdas            : yes [3]
+    - cxx11_noexcept           : yes [3]
+    - cxx11_nullptr            : yes [3]
+    - cxx11_rvalue_references  : yes [3]
+    - cxx11_template_aliases   : yes [3]
+    - cxx11_thread_local       : yes [3]
+    - cxx11_variadic_templates : yes [3]
+    - has_icu builds           : no [2]
+warning: Graph library does not contain MPI-based parallel components.
+note: to enable them, add "using mpi ;" to your user-config.jam.
+note: to suppress this message, pass "--without-graph_parallel" to bjam.
+    - zlib                     : yes [4]
+    - bzip2                    : no [4]
+    - lzma                     : no [4]
+    - zstd                     : no [4]
+    - has_lzma_cputhreads builds : no [2]
+    - cxx11_decltype           : yes [2]
+    - cxx11_basic_alignas      : yes [2]
+    - iconv (libc)             : no [2]
+    - iconv (separate)         : no [2]
+    - icu                      : no [2]
+    - icu (lib64)              : no [2]
+- Boost.Locale needs either iconv or ICU library to be built.
+    - iconv (libc)             : no [3]
+    - iconv (separate)         : no [3]
+    - icu                      : no [3]
+    - icu (lib64)              : no [3]
+- Boost.Locale needs either iconv or ICU library to be built.
+    - native atomic int32 supported : yes [2]
+    - native syslog supported  : yes [2]
+    - pthread supports robust mutexes : no [2]
+    - gcc visibility           : yes [2]
+    - sfinae_expr              : yes [2]
+    - cxx11_unified_initialization_syntax : yes [2]
+    - cxx11_hdr_initializer_list : yes [2]
+    - cxx11_hdr_chrono         : yes [2]
+    - cxx11_numeric_limits     : yes [2]
+    - cxx11_hdr_array          : yes [2]
+    - cxx11_hdr_atomic         : yes [2]
+    - cxx11_hdr_type_traits    : yes [2]
+    - cxx11_allocator          : yes [2]
+    - cxx11_explicit_conversion_operators : yes [2]
+    - long double support      : yes [2]
+warning: skipping optional Message Passing Interface (MPI) library.
+note: to enable MPI support, add "using mpi ;" to user-config.jam.
+note: to suppress this message, pass "--without-mpi" to bjam.
+note: otherwise, you can safely ignore this message.
+    - cxx11_static_assert      : yes [2]
+    - std::fstream is moveable and swappable : yes [2]
+    - Has Large File Support   : yes [2]
+    - libbacktrace builds      : no [2]
+    - libbacktrace builds      : no [3]
+    - addr2line builds         : no [2]
+    - addr2line builds         : no [3]
+    - WinDbg builds            : no [2]
+    - WinDbg builds            : no [3]
+    - WinDbgCached builds      : no [2]
+    - WinDbgCached builds      : no [3]
+    - BOOST_COMP_GNUC >= 4.3.0 : no [2]
+
+[1] clng-andrd/trgt-os-andrd
+[2] clng-lnx-andrd/rls/abi-apcs/lnk-sttc/pythn-2.7/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn
+[3] clng-lnx-andrd/rls/abi-apcs/bld-no/lnk-sttc/pythn-2.7/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn
+[4] lnk-sttc
+
+Component configuration:
+
+    - atomic                   : building
+    - chrono                   : building
+    - container                : building
+    - context                  : building
+    - contract                 : building
+    - coroutine                : building
+    - date_time                : building
+    - exception                : building
+    - fiber                    : building
+    - filesystem               : building
+    - graph                    : building
+    - graph_parallel           : building
+    - headers                  : building
+    - iostreams                : building
+    - json                     : building
+    - locale                   : building
+    - log                      : building
+    - math                     : building
+    - mpi                      : building
+    - nowide                   : building
+    - program_options          : building
+    - python                   : not building
+    - random                   : building
+    - regex                    : building
+    - serialization            : building
+    - stacktrace               : building
+    - system                   : building
+    - test                     : building
+    - thread                   : building
+    - timer                    : building
+    - type_erasure             : building
+    - wave                     : building
+
+...patience...
+...patience...
+...patience...
+...patience...
+...patience...
+...found 12936 targets...
+...updating 1002 targets...
+boost-install.generate-cmake-config- bin.v2/libs/fiber/build/stage/boost_fiber-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/fiber/build/stage/boost_fiber-config-version.cmake
+boost-install.generate-cmake-config- bin.v2/libs/fiber/build/stage/boost_fiber_numa-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/fiber/build/stage/boost_fiber_numa-config-version.cmake
+boost-install.generate-cmake-config- bin.v2/libs/filesystem/build/stage/boost_filesystem-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/filesystem/build/stage/boost_filesystem-config-version.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/regex/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/regex_debug.o
+clang-linux.compile.c++.without-pch bin.v2/libs/regex/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/static_mutex.o
+clang-linux.compile.c++.without-pch bin.v2/libs/regex/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/regex.o
+clang-linux.compile.c++.without-pch bin.v2/libs/filesystem/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/codecvt_error_category.o
+clang-linux.compile.c++.without-pch bin.v2/libs/filesystem/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/path_traits.o
+clang-linux.compile.c++.without-pch bin.v2/libs/filesystem/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/exception.o
+clang-linux.compile.c++.without-pch bin.v2/libs/filesystem/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/directory.o
+clang-linux.compile.c++.without-pch bin.v2/libs/filesystem/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/windows_file_codecvt.o
+clang-linux.compile.c++.without-pch bin.v2/libs/filesystem/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/utf8_codecvt_facet.o
+clang-linux.compile.c++.without-pch bin.v2/libs/filesystem/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/path.o
+clang-linux.compile.c++.without-pch bin.v2/libs/filesystem/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/portability.o
+clang-linux.compile.c++.without-pch bin.v2/libs/filesystem/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/operations.o
+clang-linux.compile.c++.without-pch bin.v2/libs/filesystem/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/unique_path.o
+clang-linux.archive bin.v2/libs/filesystem/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_filesystem.a
+boost-install.generate-cmake-variant- bin.v2/libs/filesystem/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_filesystem-variant-static.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/fiber/build/clng-lnx-andrd/rls/abi-apcs/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/algo/algorithm.o
+clang-linux.compile.c++.without-pch bin.v2/libs/fiber/build/clng-lnx-andrd/rls/abi-apcs/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/algo/round_robin.o
+clang-linux.compile.c++.without-pch bin.v2/libs/fiber/build/clng-lnx-andrd/rls/abi-apcs/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/algo/shared_work.o
+clang-linux.compile.c++.without-pch bin.v2/libs/fiber/build/clng-lnx-andrd/rls/abi-apcs/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/barrier.o
+clang-linux.compile.c++.without-pch bin.v2/libs/fiber/build/clng-lnx-andrd/rls/abi-apcs/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/condition_variable.o
+clang-linux.compile.c++.without-pch bin.v2/libs/fiber/build/clng-lnx-andrd/rls/abi-apcs/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/algo/work_stealing.o
+clang-linux.compile.c++.without-pch bin.v2/libs/fiber/build/clng-lnx-andrd/rls/abi-apcs/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/future.o
+clang-linux.compile.c++.without-pch bin.v2/libs/fiber/build/clng-lnx-andrd/rls/abi-apcs/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/fiber.o
+clang-linux.compile.c++.without-pch bin.v2/libs/fiber/build/clng-lnx-andrd/rls/abi-apcs/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/context.o
+clang-linux.compile.c++.without-pch bin.v2/libs/fiber/build/clng-lnx-andrd/rls/abi-apcs/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/waker.o
+clang-linux.compile.c++.without-pch bin.v2/libs/fiber/build/clng-lnx-andrd/rls/abi-apcs/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/properties.o
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_filesystem.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_fiber-1.76.0/boost_fiber-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_fiber-1.76.0/boost_fiber-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_fiber_numa-1.76.0/boost_fiber_numa-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_fiber_numa-1.76.0/boost_fiber_numa-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_filesystem-1.76.0/boost_filesystem-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_filesystem-1.76.0/boost_filesystem-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_filesystem-1.76.0/libboost_filesystem-variant-static.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/fiber/build/clng-lnx-andrd/rls/abi-apcs/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/mutex.o
+clang-linux.compile.c++.without-pch bin.v2/libs/fiber/build/clng-lnx-andrd/rls/abi-apcs/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/recursive_mutex.o
+boost-install.generate-cmake-config- bin.v2/libs/graph/build/stage/boost_graph-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_graph-1.76.0/boost_graph-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/graph/build/stage/boost_graph-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_graph-1.76.0/boost_graph-config-version.cmake
+boost-install.generate-cmake-config- bin.v2/libs/regex/build/stage/boost_regex-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_regex-1.76.0/boost_regex-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/regex/build/stage/boost_regex-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_regex-1.76.0/boost_regex-config-version.cmake
+boost-install.generate-cmake-config- bin.v2/libs/graph_parallel/build/stage/boost_graph_parallel-config.cmake
+...on 100th target...
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_graph_parallel-1.76.0/boost_graph_parallel-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/graph_parallel/build/stage/boost_graph_parallel-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_graph_parallel-1.76.0/boost_graph_parallel-config-version.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/fiber/build/clng-lnx-andrd/rls/abi-apcs/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/recursive_timed_mutex.o
+clang-linux.compile.c++.without-pch bin.v2/libs/fiber/build/clng-lnx-andrd/rls/abi-apcs/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/timed_mutex.o
+clang-linux.compile.c++.without-pch bin.v2/libs/iostreams/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/file_descriptor.o
+clang-linux.compile.c++.without-pch bin.v2/libs/fiber/build/clng-lnx-andrd/rls/abi-apcs/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/scheduler.o
+clang-linux.archive bin.v2/libs/fiber/build/clng-lnx-andrd/rls/abi-apcs/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_fiber.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_fiber.a
+boost-install.generate-cmake-variant- bin.v2/libs/fiber/build/clng-lnx-andrd/rls/abi-apcs/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_fiber-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_fiber-1.76.0/libboost_fiber-variant-static.cmake
+boost-install.generate-cmake-config- bin.v2/libs/iostreams/build/stage/boost_iostreams-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_iostreams-1.76.0/boost_iostreams-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/iostreams/build/stage/boost_iostreams-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_iostreams-1.76.0/boost_iostreams-config-version.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/iostreams/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/mapped_file.o
+boost-install.generate-cmake-config- bin.v2/libs/json/build/stage/boost_json-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_json-1.76.0/boost_json-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/json/build/stage/boost_json-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_json-1.76.0/boost_json-config-version.cmake
+boost-install.generate-cmake-config- bin.v2/libs/locale/build/stage/boost_locale-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_locale-1.76.0/boost_locale-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/locale/build/stage/boost_locale-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_locale-1.76.0/boost_locale-config-version.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/regex/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/posix_api.o
+clang-linux.compile.c++.without-pch bin.v2/libs/iostreams/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/gzip.o
+clang-linux.compile.c++.without-pch bin.v2/libs/regex/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/wide_posix_api.o
+clang-linux.archive bin.v2/libs/regex/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_regex.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_regex.a
+boost-install.generate-cmake-variant- bin.v2/libs/regex/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_regex-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_regex-1.76.0/libboost_regex-variant-static.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/iostreams/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/zlib.o
+clang-linux.archive bin.v2/libs/iostreams/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_iostreams.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_iostreams.a
+boost-install.generate-cmake-variant- bin.v2/libs/iostreams/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_iostreams-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_iostreams-1.76.0/libboost_iostreams-variant-static.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/attribute_set.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/attribute_value_set.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/code_conversion.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/attribute_name.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/severity_level.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/named_scope.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/global_logger_storage.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/process_id.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/process_name.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/thread_id.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/timer.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/record_ostream.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/core.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/default_attribute_names.o
+clang-linux.compile.c++.without-pch bin.v2/libs/json/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/src.o
+clang-linux.archive bin.v2/libs/json/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_json.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_json.a
+boost-install.generate-cmake-variant- bin.v2/libs/json/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_json-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_json-1.76.0/libboost_json-variant-static.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/graph/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/graphml.o
+In file included from libs/graph/src/graphml.cpp:17:
+In file included from ./boost/graph/graphml.hpp:20:
+In file included from ./boost/graph/graphviz.hpp:24:
+In file included from ./boost/graph/adjacency_list.hpp:255:
+In file included from ./boost/graph/detail/adjacency_list.hpp:37:
+In file included from ./boost/graph/adjacency_iterator.hpp:13:
+./boost/detail/iterator.hpp:13:1: warning: This header is deprecated. Use <iterator> instead. [-W#pragma-messages]
+BOOST_HEADER_DEPRECATED("<iterator>")
+^
+./boost/config/header_deprecated.hpp:23:37: note: expanded from macro 'BOOST_HEADER_DEPRECATED'
+# define BOOST_HEADER_DEPRECATED(a) BOOST_PRAGMA_MESSAGE("This header is deprecated. Use " a " instead.")
+                                    ^
+./boost/config/pragma_message.hpp:24:34: note: expanded from macro 'BOOST_PRAGMA_MESSAGE'
+# define BOOST_PRAGMA_MESSAGE(x) _Pragma(BOOST_STRINGIZE(message(x)))
+                                 ^
+<scratch space>:36:2: note: expanded from here
+ message("This header is deprecated. Use " "<iterator>" " instead.")
+ ^
+1 warning generated.
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/once_block.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/thread_specific.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/text_ostream_backend.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/timestamp.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/text_multifile_backend.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/threadsafe_queue.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/event.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/exceptions.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/trivial.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/default_sink.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/permissions.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/dump.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/spirit_encoding.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/posix/ipc_reliable_message_queue.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/date_time_format_parser.o
+clang-linux.compile.c++.without-pch bin.v2/libs/graph/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/read_graphviz_new.o
+In file included from libs/graph/src/read_graphviz_new.cpp:48:
+./boost/bind.hpp:36:1: warning: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior. [-W#pragma-messages]
+BOOST_PRAGMA_MESSAGE(
+^
+./boost/config/pragma_message.hpp:24:34: note: expanded from macro 'BOOST_PRAGMA_MESSAGE'
+# define BOOST_PRAGMA_MESSAGE(x) _Pragma(BOOST_STRINGIZE(message(x)))
+                                 ^
+<scratch space>:363:2: note: expanded from here
+ message("The practice of declaring the Bind placeholders (_1, _2, ...) " "in the global namespace is deprecated. Please use " "<boost/bind/bind.hpp> + using namespace boost::placeholders, " "or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.")
+ ^
+In file included from libs/graph/src/read_graphviz_new.cpp:50:
+In file included from ./boost/graph/graphviz.hpp:24:
+In file included from ./boost/graph/adjacency_list.hpp:255:
+In file included from ./boost/graph/detail/adjacency_list.hpp:37:
+In file included from ./boost/graph/adjacency_iterator.hpp:13:
+./boost/detail/iterator.hpp:13:1: warning: This header is deprecated. Use <iterator> instead. [-W#pragma-messages]
+BOOST_HEADER_DEPRECATED("<iterator>")
+^
+./boost/config/header_deprecated.hpp:23:37: note: expanded from macro 'BOOST_HEADER_DEPRECATED'
+# define BOOST_HEADER_DEPRECATED(a) BOOST_PRAGMA_MESSAGE("This header is deprecated. Use " a " instead.")
+                                    ^
+./boost/config/pragma_message.hpp:24:34: note: expanded from macro 'BOOST_PRAGMA_MESSAGE'
+# define BOOST_PRAGMA_MESSAGE(x) _Pragma(BOOST_STRINGIZE(message(x)))
+                                 ^
+<scratch space>:47:2: note: expanded from here
+ message("This header is deprecated. Use " "<iterator>" " instead.")
+ ^
+2 warnings generated.
+...on 200th target...
+clang-linux.archive bin.v2/libs/graph/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_graph.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_graph.a
+boost-install.generate-cmake-variant- bin.v2/libs/graph/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_graph-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_graph-1.76.0/libboost_graph-variant-static.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/setup/parser_utils.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/format_parser.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/posix/object_name.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/named_scope_format_parser.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/setup/init_from_stream.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/syslog_backend.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/text_file_backend.o
+clang-linux.archive bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/libboost_log.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_log.a
+boost-install.generate-cmake-config- bin.v2/libs/log/build/stage/boost_log-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_log-1.76.0/boost_log-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/log/build/stage/boost_log-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_log-1.76.0/boost_log-config-version.cmake
+boost-install.generate-cmake-variant- bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/libboost_log-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_log-1.76.0/libboost_log-variant-static.cmake
+boost-install.generate-cmake-config- bin.v2/libs/log/build/stage/boost_log_setup-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_log_setup-1.76.0/boost_log_setup-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/log/build/stage/boost_log_setup-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_log_setup-1.76.0/boost_log_setup-config-version.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/setup/formatter_parser.o
+boost-install.generate-cmake-config- bin.v2/libs/math/build/stage/boost_math_c99-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_math_c99-1.76.0/boost_math_c99-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/math/build/stage/boost_math_c99-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_math_c99-1.76.0/boost_math_c99-config-version.cmake
+boost-install.generate-cmake-config- bin.v2/libs/math/build/stage/boost_math_c99f-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_math_c99f-1.76.0/boost_math_c99f-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/math/build/stage/boost_math_c99f-config-version.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/setup/filter_parser.o
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_math_c99f-1.76.0/boost_math_c99f-config-version.cmake
+boost-install.generate-cmake-config- bin.v2/libs/math/build/stage/boost_math_c99l-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/math/build/stage/boost_math_c99l-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_math_c99l-1.76.0/boost_math_c99l-config.cmake
+boost-install.generate-cmake-config- bin.v2/libs/math/build/stage/boost_math_tr1-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_math_c99l-1.76.0/boost_math_c99l-config-version.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/math/build/stage/boost_math_tr1-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_math_tr1-1.76.0/boost_math_tr1-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_math_tr1-1.76.0/boost_math_tr1-config-version.cmake
+boost-install.generate-cmake-config- bin.v2/libs/math/build/stage/boost_math_tr1f-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/math/build/stage/boost_math_tr1f-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_math_tr1f-1.76.0/boost_math_tr1f-config.cmake
+boost-install.generate-cmake-config- bin.v2/libs/math/build/stage/boost_math_tr1l-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_math_tr1f-1.76.0/boost_math_tr1f-config-version.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/math/build/stage/boost_math_tr1l-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_math_tr1l-1.76.0/boost_math_tr1l-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_math_tr1l-1.76.0/boost_math_tr1l-config-version.cmake
+boost-install.generate-cmake-config- bin.v2/libs/mpi/build/stage/boost_mpi-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/mpi/build/stage/boost_mpi-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_mpi-1.76.0/boost_mpi-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_mpi-1.76.0/boost_mpi-config-version.cmake
+boost-install.generate-cmake-config- bin.v2/libs/nowide/build/stage/boost_nowide-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_nowide-1.76.0/boost_nowide-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/nowide/build/stage/boost_nowide-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_nowide-1.76.0/boost_nowide-config-version.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/nowide/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/cstdlib.o
+...on 300th target...
+clang-linux.compile.c++.without-pch bin.v2/libs/nowide/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/cstdio.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/setup/settings_parser.o
+clang-linux.compile.c++.without-pch bin.v2/libs/nowide/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/stat.o
+clang-linux.compile.c++.pch bin.v2/libs/math/build/pch/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/../src/tr1/pch.hpp.pth
+clang-linux.compile.c++.without-pch bin.v2/libs/nowide/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/filebuf.o
+clang-linux.compile.c++.without-pch bin.v2/libs/nowide/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/iostream.o
+clang-linux.archive bin.v2/libs/nowide/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_nowide.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_nowide.a
+boost-install.generate-cmake-variant- bin.v2/libs/nowide/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_nowide-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_nowide-1.76.0/libboost_nowide-variant-static.cmake
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/acosh.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/asinh.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/atanh.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/copysign.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/cbrt.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/erfc.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/expm1.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/erf.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/setup/default_formatter_factory.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/fmax.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/fmin.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/fpclassify.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/hypot.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/llround.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/log1p.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/lround.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/lgamma.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/nextafter.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/nexttoward.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/round.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/trunc.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/tgamma.o
+clang-linux.archive bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_math_c99.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_math_c99.a
+boost-install.generate-cmake-variant- bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_math_c99-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_math_c99-1.76.0/libboost_math_c99-variant-static.cmake
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/acoshf.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/asinhf.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/atanhf.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/cbrtf.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/copysignf.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/erfcf.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/erff.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/expm1f.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/fmaxf.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/fminf.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/fpclassifyf.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/hypotf.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/lgammaf.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/llroundf.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/log1pf.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/lroundf.o
+clang-linux.compile.c++.without-pch bin.v2/libs/program_options/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/cmdline.o
+In file included from libs/program_options/src/cmdline.cpp:18:
+./boost/bind.hpp:36:1: warning: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior. [-W#pragma-messages]
+BOOST_PRAGMA_MESSAGE(
+^
+./boost/config/pragma_message.hpp:24:34: note: expanded from macro 'BOOST_PRAGMA_MESSAGE'
+# define BOOST_PRAGMA_MESSAGE(x) _Pragma(BOOST_STRINGIZE(message(x)))
+                                 ^
+<scratch space>:33:2: note: expanded from here
+ message("The practice of declaring the Bind placeholders (_1, _2, ...) " "in the global namespace is deprecated. Please use " "<boost/bind/bind.hpp> + using namespace boost::placeholders, " "or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.")
+ ^
+1 warning generated.
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/nextafterf.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/nexttowardf.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/roundf.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/truncf.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/tgammaf.o
+clang-linux.archive bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_math_c99f.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_math_c99f.a
+boost-install.generate-cmake-variant- bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_math_c99f-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_math_c99f-1.76.0/libboost_math_c99f-variant-static.cmake
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/acoshl.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/asinhl.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/atanhl.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/cbrtl.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/copysignl.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/expm1l.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/erfcl.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/fmaxl.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/fminl.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/erfl.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/fpclassifyl.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/hypotl.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/llroundl.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/log1pl.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/lgammal.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/lroundl.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/nextafterl.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/roundl.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/nexttowardl.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/truncl.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/setup/default_filter_factory.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/assoc_laguerre.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/tgammal.o
+clang-linux.archive bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_math_c99l.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_math_c99l.a
+boost-install.generate-cmake-variant- bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_math_c99l-variant-static.cmake
+...on 400th target...
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_math_c99l-1.76.0/libboost_math_c99l-variant-static.cmake
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/beta.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/setup/init_from_settings.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/comp_ellint_1.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/comp_ellint_2.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/assoc_legendre.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/comp_ellint_3.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/cyl_bessel_i.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/ellint_1.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/cyl_bessel_j.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/ellint_2.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/cyl_neumann.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/hermite.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/ellint_3.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/cyl_bessel_k.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/laguerre.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/legendre.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/expint.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/assoc_laguerref.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/betaf.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/sph_legendre.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/comp_ellint_1f.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/assoc_legendref.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/sph_bessel.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/comp_ellint_2f.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/sph_neumann.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/comp_ellint_3f.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/riemann_zeta.o
+clang-linux.archive bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_math_tr1.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_math_tr1.a
+boost-install.generate-cmake-variant- bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_math_tr1-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_math_tr1-1.76.0/libboost_math_tr1-variant-static.cmake
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/cyl_bessel_if.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/cyl_bessel_jf.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/ellint_1f.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/expintf.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/cyl_neumannf.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/hermitef.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/ellint_2f.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/cyl_bessel_kf.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/laguerref.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/legendref.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/ellint_3f.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/assoc_laguerrel.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/sph_legendref.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/sph_besself.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/betal.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/comp_ellint_1l.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/sph_neumannf.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/assoc_legendrel.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/riemann_zetaf.o
+clang-linux.archive bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_math_tr1f.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_math_tr1f.a
+boost-install.generate-cmake-variant- bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_math_tr1f-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_math_tr1f-1.76.0/libboost_math_tr1f-variant-static.cmake
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/comp_ellint_2l.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/comp_ellint_3l.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/cyl_bessel_jl.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/cyl_bessel_il.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/ellint_1l.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/cyl_neumannl.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/ellint_2l.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/hermitel.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/laguerrel.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/cyl_bessel_kl.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/legendrel.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/ellint_3l.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/expintl.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/sph_legendrel.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/sph_bessell.o
+clang-linux.compile.c++.without-pch bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/setup/matches_relation_factory.o
+clang-linux.archive bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/libboost_log_setup.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_log_setup.a
+boost-install.generate-cmake-variant- bin.v2/libs/log/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/libboost_log_setup-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_log_setup-1.76.0/libboost_log_setup-variant-static.cmake
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/sph_neumannl.o
+clang-linux.compile.c++.with-pch bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/riemann_zetal.o
+clang-linux.archive bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_math_tr1l.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_math_tr1l.a
+boost-install.generate-cmake-variant- bin.v2/libs/math/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_math_tr1l-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_math_tr1l-1.76.0/libboost_math_tr1l-variant-static.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/program_options/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/positional_options.o
+clang-linux.compile.c++.without-pch bin.v2/libs/program_options/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/utf8_codecvt_facet.o
+clang-linux.compile.c++.without-pch bin.v2/libs/program_options/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/convert.o
+In file included from libs/program_options/src/convert.cpp:22:
+./boost/bind.hpp:36:1: warning: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior. [-W#pragma-messages]
+BOOST_PRAGMA_MESSAGE(
+^
+./boost/config/pragma_message.hpp:24:34: note: expanded from macro 'BOOST_PRAGMA_MESSAGE'
+# define BOOST_PRAGMA_MESSAGE(x) _Pragma(BOOST_STRINGIZE(message(x)))
+                                 ^
+<scratch space>:249:2: note: expanded from here
+ message("The practice of declaring the Bind placeholders (_1, _2, ...) " "in the global namespace is deprecated. Please use " "<boost/bind/bind.hpp> + using namespace boost::placeholders, " "or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.")
+ ^
+1 warning generated.
+boost-install.generate-cmake-config- bin.v2/libs/program_options/build/stage/boost_program_options-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_program_options-1.76.0/boost_program_options-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/program_options/build/stage/boost_program_options-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_program_options-1.76.0/boost_program_options-config-version.cmake
+...on 500th target...
+clang-linux.compile.c++.without-pch bin.v2/libs/program_options/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/config_file.o
+boost-install.generate-cmake-config- bin.v2/libs/random/build/stage/boost_random-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_random-1.76.0/boost_random-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/random/build/stage/boost_random-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_random-1.76.0/boost_random-config-version.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/archive_exception.o
+clang-linux.compile.c++.without-pch bin.v2/libs/program_options/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/winmain.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/basic_archive.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/basic_iserializer.o
+clang-linux.compile.c++.without-pch bin.v2/libs/random/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/random_device.o
+clang-linux.archive bin.v2/libs/random/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_random.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_random.a
+boost-install.generate-cmake-variant- bin.v2/libs/random/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_random-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_random-1.76.0/libboost_random-variant-static.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/program_options/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/variables_map.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/basic_pointer_iserializer.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/basic_oserializer.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/basic_pointer_oserializer.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/basic_serializer_map.o
+clang-linux.compile.c++.without-pch bin.v2/libs/program_options/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/split.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/basic_iarchive.o
+clang-linux.compile.c++.without-pch bin.v2/libs/program_options/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/options_description.o
+clang-linux.compile.c++.without-pch bin.v2/libs/program_options/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/parsers.o
+In file included from libs/program_options/src/parsers.cpp:19:
+./boost/bind.hpp:36:1: warning: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior. [-W#pragma-messages]
+BOOST_PRAGMA_MESSAGE(
+^
+./boost/config/pragma_message.hpp:24:34: note: expanded from macro 'BOOST_PRAGMA_MESSAGE'
+# define BOOST_PRAGMA_MESSAGE(x) _Pragma(BOOST_STRINGIZE(message(x)))
+                                 ^
+<scratch space>:39:2: note: expanded from here
+ message("The practice of declaring the Bind placeholders (_1, _2, ...) " "in the global namespace is deprecated. Please use " "<boost/bind/bind.hpp> + using namespace boost::placeholders, " "or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.")
+ ^
+1 warning generated.
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/basic_oarchive.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/basic_xml_archive.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/extended_type_info_no_rtti.o
+clang-linux.compile.c++.without-pch bin.v2/libs/program_options/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/value_semantic.o
+clang-linux.archive bin.v2/libs/program_options/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_program_options.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_program_options.a
+boost-install.generate-cmake-variant- bin.v2/libs/program_options/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_program_options-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_program_options-1.76.0/libboost_program_options-variant-static.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/basic_text_iprimitive.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/stl_port.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/extended_type_info.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/extended_type_info_typeid.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/basic_text_oprimitive.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/polymorphic_iarchive.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/polymorphic_oarchive.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/binary_oarchive.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/binary_iarchive.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/polymorphic_text_iarchive.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/text_iarchive.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/polymorphic_text_oarchive.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/text_oarchive.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/polymorphic_binary_iarchive.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/polymorphic_binary_oarchive.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/polymorphic_xml_iarchive.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/polymorphic_xml_oarchive.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/xml_archive_exception.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/void_cast.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/codecvt_null.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/utf8_codecvt_facet.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/basic_text_wiprimitive.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/basic_text_woprimitive.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/xml_oarchive.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/polymorphic_text_wiarchive.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/xml_iarchive.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/text_wiarchive.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/text_woarchive.o
+boost-install.generate-cmake-config- bin.v2/libs/serialization/build/stage/boost_serialization-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_serialization-1.76.0/boost_serialization-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/serialization/build/stage/boost_serialization-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_serialization-1.76.0/boost_serialization-config-version.cmake
+boost-install.generate-cmake-config- bin.v2/libs/serialization/build/stage/boost_wserialization-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_wserialization-1.76.0/boost_wserialization-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/serialization/build/stage/boost_wserialization-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_wserialization-1.76.0/boost_wserialization-config-version.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/stacktrace/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/noop.o
+clang-linux.archive bin.v2/libs/stacktrace/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_stacktrace_noop.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_stacktrace_noop.a
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/polymorphic_text_woarchive.o
+boost-install.generate-cmake-config- bin.v2/libs/stacktrace/build/stage/boost_stacktrace_noop-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_stacktrace_noop-1.76.0/boost_stacktrace_noop-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/stacktrace/build/stage/boost_stacktrace_noop-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_stacktrace_noop-1.76.0/boost_stacktrace_noop-config-version.cmake
+boost-install.generate-cmake-variant- bin.v2/libs/stacktrace/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_stacktrace_noop-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_stacktrace_noop-1.76.0/libboost_stacktrace_noop-variant-static.cmake
+boost-install.generate-cmake-config- bin.v2/libs/stacktrace/build/stage/boost_stacktrace_backtrace-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_stacktrace_backtrace-1.76.0/boost_stacktrace_backtrace-config.cmake
+...on 600th target...
+boost-install.generate-cmake-config-version- bin.v2/libs/stacktrace/build/stage/boost_stacktrace_backtrace-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_stacktrace_backtrace-1.76.0/boost_stacktrace_backtrace-config-version.cmake
+boost-install.generate-cmake-config- bin.v2/libs/stacktrace/build/stage/boost_stacktrace_addr2line-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_stacktrace_addr2line-1.76.0/boost_stacktrace_addr2line-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/stacktrace/build/stage/boost_stacktrace_addr2line-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_stacktrace_addr2line-1.76.0/boost_stacktrace_addr2line-config-version.cmake
+boost-install.generate-cmake-config- bin.v2/libs/stacktrace/build/stage/boost_stacktrace_basic-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_stacktrace_basic-1.76.0/boost_stacktrace_basic-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/stacktrace/build/stage/boost_stacktrace_basic-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_stacktrace_basic-1.76.0/boost_stacktrace_basic-config-version.cmake
+boost-install.generate-cmake-config- bin.v2/libs/stacktrace/build/stage/boost_stacktrace_windbg-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_stacktrace_windbg-1.76.0/boost_stacktrace_windbg-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/stacktrace/build/stage/boost_stacktrace_windbg-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_stacktrace_windbg-1.76.0/boost_stacktrace_windbg-config-version.cmake
+boost-install.generate-cmake-config- bin.v2/libs/stacktrace/build/stage/boost_stacktrace_windbg_cached-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_stacktrace_windbg_cached-1.76.0/boost_stacktrace_windbg_cached-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/stacktrace/build/stage/boost_stacktrace_windbg_cached-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_stacktrace_windbg_cached-1.76.0/boost_stacktrace_windbg_cached-config-version.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/system/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/error_code.o
+clang-linux.archive bin.v2/libs/system/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_system.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_system.a
+boost-install.generate-cmake-config- bin.v2/libs/system/build/stage/boost_system-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_system-1.76.0/boost_system-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/system/build/stage/boost_system-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_system-1.76.0/boost_system-config-version.cmake
+boost-install.generate-cmake-variant- bin.v2/libs/system/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_system-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_system-1.76.0/libboost_system-variant-static.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/polymorphic_xml_woarchive.o
+clang-linux.compile.c++.without-pch bin.v2/libs/stacktrace/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/basic.o
+clang-linux.archive bin.v2/libs/stacktrace/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_stacktrace_basic.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_stacktrace_basic.a
+boost-install.generate-cmake-variant- bin.v2/libs/stacktrace/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_stacktrace_basic-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_stacktrace_basic-1.76.0/libboost_stacktrace_basic-variant-static.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/polymorphic_xml_wiarchive.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/xml_woarchive.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/xml_wiarchive.o
+clang-linux.compile.c++.without-pch bin.v2/libs/test/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/cpp_main.o
+clang-linux.compile.c++.without-pch bin.v2/libs/test/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/debug.o
+clang-linux.compile.c++.without-pch bin.v2/libs/test/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/execution_monitor.o
+clang-linux.archive bin.v2/libs/test/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_prg_exec_monitor.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_prg_exec_monitor.a
+clang-linux.compile.c++.without-pch bin.v2/libs/test/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/compiler_log_formatter.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/xml_grammar.o
+clang-linux.archive bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_serialization.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_serialization.a
+boost-install.generate-cmake-variant- bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_serialization-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_serialization-1.76.0/libboost_serialization-variant-static.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/test/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/decorator.o
+clang-linux.compile.c++.without-pch bin.v2/libs/test/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/test_framework_init_observer.o
+clang-linux.compile.c++.without-pch bin.v2/libs/test/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/plain_report_formatter.o
+clang-linux.compile.c++.without-pch bin.v2/libs/test/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/results_reporter.o
+clang-linux.compile.c++.without-pch bin.v2/libs/test/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/progress_monitor.o
+clang-linux.compile.c++.without-pch bin.v2/libs/test/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/results_collector.o
+clang-linux.compile.c++.without-pch bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/xml_wgrammar.o
+clang-linux.archive bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_wserialization.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_wserialization.a
+boost-install.generate-cmake-variant- bin.v2/libs/serialization/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_wserialization-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_wserialization-1.76.0/libboost_wserialization-variant-static.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/test/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/test_main.o
+clang-linux.compile.c++.without-pch bin.v2/libs/test/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/unit_test_monitor.o
+clang-linux.compile.c++.without-pch bin.v2/libs/test/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/unit_test_main.o
+clang-linux.compile.c++.without-pch bin.v2/libs/test/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/test_tools.o
+boost-install.generate-cmake-config- bin.v2/libs/test/build/stage/boost_prg_exec_monitor-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_prg_exec_monitor-1.76.0/boost_prg_exec_monitor-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/test/build/stage/boost_prg_exec_monitor-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_prg_exec_monitor-1.76.0/boost_prg_exec_monitor-config-version.cmake
+boost-install.generate-cmake-variant- bin.v2/libs/test/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_prg_exec_monitor-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_prg_exec_monitor-1.76.0/libboost_prg_exec_monitor-variant-static.cmake
+boost-install.generate-cmake-config- bin.v2/libs/test/build/stage/boost_test_exec_monitor-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_test_exec_monitor-1.76.0/boost_test_exec_monitor-config.cmake
+...on 700th target...
+boost-install.generate-cmake-config-version- bin.v2/libs/test/build/stage/boost_test_exec_monitor-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_test_exec_monitor-1.76.0/boost_test_exec_monitor-config-version.cmake
+boost-install.generate-cmake-config- bin.v2/libs/test/build/stage/boost_unit_test_framework-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_unit_test_framework-1.76.0/boost_unit_test_framework-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/test/build/stage/boost_unit_test_framework-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_unit_test_framework-1.76.0/boost_unit_test_framework-config-version.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/test/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/unit_test_log.o
+clang-linux.compile.c++.without-pch bin.v2/libs/test/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/test_tree.o
+boost-install.generate-cmake-config- bin.v2/libs/timer/build/stage/boost_timer-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_timer-1.76.0/boost_timer-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/timer/build/stage/boost_timer-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_timer-1.76.0/boost_timer-config-version.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/timer/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/auto_timers_construction.o
+boost-install.generate-cmake-config- bin.v2/libs/type_erasure/build/stage/boost_type_erasure-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_type_erasure-1.76.0/boost_type_erasure-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/type_erasure/build/stage/boost_type_erasure-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_type_erasure-1.76.0/boost_type_erasure-config-version.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/test/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/xml_log_formatter.o
+clang-linux.compile.c++.without-pch bin.v2/libs/test/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/xml_report_formatter.o
+clang-linux.compile.c++.without-pch bin.v2/libs/timer/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/cpu_timer.o
+clang-linux.archive bin.v2/libs/timer/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_timer.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_timer.a
+boost-install.generate-cmake-variant- bin.v2/libs/timer/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_timer-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_timer-1.76.0/libboost_timer-variant-static.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/test/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/junit_log_formatter.o
+clang-linux.compile.c++.without-pch bin.v2/libs/test/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/framework.o
+clang-linux.compile.c++.without-pch bin.v2/libs/type_erasure/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/dynamic_binding.o
+clang-linux.archive bin.v2/libs/type_erasure/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/libboost_type_erasure.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_type_erasure.a
+boost-install.generate-cmake-variant- bin.v2/libs/type_erasure/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/libboost_type_erasure-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_type_erasure-1.76.0/libboost_type_erasure-variant-static.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/wave/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/instantiate_defined_grammar.o
+clang-linux.compile.c++.without-pch bin.v2/libs/wave/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/instantiate_cpp_literalgrs.o
+clang-linux.compile.c++.without-pch bin.v2/libs/wave/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/instantiate_has_include_grammar.o
+clang-linux.compile.c++.without-pch bin.v2/libs/wave/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/instantiate_predef_macros.o
+clang-linux.compile.c++.without-pch bin.v2/libs/wave/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/token_ids.o
+clang-linux.compile.c++.without-pch bin.v2/libs/wave/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/wave_config_constant.o
+boost-install.generate-cmake-config- bin.v2/libs/wave/build/stage/boost_wave-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_wave-1.76.0/boost_wave-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/wave/build/stage/boost_wave-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_wave-1.76.0/boost_wave-config-version.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/wave/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/cpplexer/re2clex/aq.o
+boost-install.generate-cmake-config- bin.v2/libs/atomic/build/stage/boost_atomic-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_atomic-1.76.0/boost_atomic-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/atomic/build/stage/boost_atomic-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_atomic-1.76.0/boost_atomic-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/BoostDetectToolset-1.76.0.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/Boost-1.76.0/BoostConfig.cmake
+...on 800th target...
+boost-install.generate-cmake-config-version- bin.v2/tools/boost_install/BoostConfigVersion.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/Boost-1.76.0/BoostConfigVersion.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/wave/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/instantiate_cpp_exprgrammar.o
+boost-install.generate-cmake-config- bin.v2/libs/headers/build/stage/boost_headers-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/headers/build/stage/boost_headers-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_headers-1.76.0/boost_headers-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_headers-1.76.0/boost_headers-config-version.cmake
+boost-install.generate-cmake-config- bin.v2/libs/chrono/build/stage/boost_chrono-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_chrono-1.76.0/boost_chrono-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/chrono/build/stage/boost_chrono-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_chrono-1.76.0/boost_chrono-config-version.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/wave/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/instantiate_cpp_grammar.o
+clang-linux.compile.c++.without-pch bin.v2/libs/atomic/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/lock_pool.o
+clang-linux.archive bin.v2/libs/atomic/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_atomic.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_atomic.a
+boost-install.generate-cmake-variant- bin.v2/libs/atomic/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_atomic-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_atomic-1.76.0/libboost_atomic-variant-static.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/wave/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/cpplexer/re2clex/cpp_re.o
+clang-linux.compile.c++.without-pch bin.v2/libs/container/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/dlmalloc.o
+clang-linux.compile.c++.without-pch bin.v2/libs/container/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/global_resource.o
+clang-linux.compile.c++.without-pch bin.v2/libs/container/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/monotonic_buffer_resource.o
+clang-linux.compile.c++.without-pch bin.v2/libs/chrono/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/chrono.o
+clang-linux.compile.c++.without-pch bin.v2/libs/chrono/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/thread_clock.o
+clang-linux.compile.c++.without-pch bin.v2/libs/container/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/pool_resource.o
+boost-install.generate-cmake-config- bin.v2/libs/container/build/stage/boost_container-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_container-1.76.0/boost_container-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/container/build/stage/boost_container-config-version.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/container/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/unsynchronized_pool_resource.o
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_container-1.76.0/boost_container-config-version.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/container/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/synchronized_pool_resource.o
+boost-install.generate-cmake-config- bin.v2/libs/context/build/stage/boost_context-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/context/build/stage/boost_context-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_context-1.76.0/boost_context-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_context-1.76.0/boost_context-config.cmake
+clang-linux.compile.asm bin.v2/libs/context/build/clng-lnx-andrd/rls/abi-apcs/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/asm/jump_arm64_aapcs_elf_gas.o
+clang-linux.compile.asm bin.v2/libs/context/build/clng-lnx-andrd/rls/abi-apcs/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/asm/make_arm64_aapcs_elf_gas.o
+clang-linux.compile.asm bin.v2/libs/context/build/clng-lnx-andrd/rls/abi-apcs/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/asm/ontop_arm64_aapcs_elf_gas.o
+boost-install.generate-cmake-config- bin.v2/libs/contract/build/stage/boost_contract-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_contract-1.76.0/boost_contract-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/contract/build/stage/boost_contract-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_contract-1.76.0/boost_contract-config-version.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/chrono/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/process_cpu_clocks.o
+clang-linux.archive bin.v2/libs/chrono/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_chrono.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_chrono.a
+boost-install.generate-cmake-variant- bin.v2/libs/chrono/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_chrono-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_chrono-1.76.0/libboost_chrono-variant-static.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/context/build/clng-lnx-andrd/rls/abi-apcs/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/posix/stack_traits.o
+clang-linux.archive bin.v2/libs/context/build/clng-lnx-andrd/rls/abi-apcs/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_context.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_context.a
+boost-install.generate-cmake-variant- bin.v2/libs/context/build/clng-lnx-andrd/rls/abi-apcs/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_context-variant-static.cmake
+...on 900th target...
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_context-1.76.0/libboost_context-variant-static.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/test/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/unit_test_parameters.o
+clang-linux.archive bin.v2/libs/test/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_test_exec_monitor.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_test_exec_monitor.a
+boost-install.generate-cmake-variant- bin.v2/libs/test/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_test_exec_monitor-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_test_exec_monitor-1.76.0/libboost_test_exec_monitor-variant-static.cmake
+clang-linux.archive bin.v2/libs/test/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_unit_test_framework.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_unit_test_framework.a
+boost-install.generate-cmake-variant- bin.v2/libs/test/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_unit_test_framework-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_unit_test_framework-1.76.0/libboost_unit_test_framework-variant-static.cmake
+clang-linux.compile.c.without-pch bin.v2/libs/container/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/alloc_lib.o
+clang-linux.archive bin.v2/libs/container/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_container.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_container.a
+boost-install.generate-cmake-variant- bin.v2/libs/container/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_container-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_container-1.76.0/libboost_container-variant-static.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/thread/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/pthread/once.o
+clang-linux.compile.c++.without-pch bin.v2/libs/coroutine/build/clng-lnx-andrd/rls/abi-apcs/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/detail/coroutine_context.o
+boost-install.generate-cmake-config- bin.v2/libs/coroutine/build/stage/boost_coroutine-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_coroutine-1.76.0/boost_coroutine-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/coroutine/build/stage/boost_coroutine-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_coroutine-1.76.0/boost_coroutine-config-version.cmake
+boost-install.generate-cmake-config- bin.v2/libs/thread/build/stage/boost_thread-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_thread-1.76.0/boost_thread-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/thread/build/stage/boost_thread-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_thread-1.76.0/boost_thread-config-version.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/date_time/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/gregorian/greg_month.o
+clang-linux.archive bin.v2/libs/date_time/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_date_time.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_date_time.a
+boost-install.generate-cmake-config- bin.v2/libs/date_time/build/stage/boost_date_time-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_date_time-1.76.0/boost_date_time-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/date_time/build/stage/boost_date_time-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_date_time-1.76.0/boost_date_time-config-version.cmake
+boost-install.generate-cmake-variant- bin.v2/libs/date_time/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_date_time-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_date_time-1.76.0/libboost_date_time-variant-static.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/exception/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/clone_current_exception_non_intrusive.o
+clang-linux.archive bin.v2/libs/exception/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_exception.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_exception.a
+boost-install.generate-cmake-config- bin.v2/libs/exception/build/stage/boost_exception-config.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_exception-1.76.0/boost_exception-config.cmake
+boost-install.generate-cmake-config-version- bin.v2/libs/exception/build/stage/boost_exception-config-version.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_exception-1.76.0/boost_exception-config-version.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/thread/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/future.o
+clang-linux.compile.c++.without-pch bin.v2/libs/coroutine/build/clng-lnx-andrd/rls/abi-apcs/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/exceptions.o
+clang-linux.compile.c++.without-pch bin.v2/libs/contract/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/contract.o
+clang-linux.archive bin.v2/libs/contract/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_contract.a
+boost-install.generate-cmake-variant- bin.v2/libs/contract/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/libboost_contract-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_contract.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_contract-1.76.0/libboost_contract-variant-static.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/coroutine/build/clng-lnx-andrd/rls/abi-apcs/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/posix/stack_traits.o
+clang-linux.archive bin.v2/libs/coroutine/build/clng-lnx-andrd/rls/abi-apcs/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/libboost_coroutine.a
+boost-install.generate-cmake-variant- bin.v2/libs/coroutine/build/clng-lnx-andrd/rls/abi-apcs/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/libboost_coroutine-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_coroutine.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_coroutine-1.76.0/libboost_coroutine-variant-static.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/thread/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/pthread/thread.o
+clang-linux.archive bin.v2/libs/thread/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/libboost_thread.a
+boost-install.generate-cmake-variant- bin.v2/libs/thread/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/libboost_thread-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_thread.a
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_thread-1.76.0/libboost_thread-variant-static.cmake
+clang-linux.compile.c++.without-pch bin.v2/libs/wave/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/instantiate_re2c_lexer.o
+clang-linux.compile.c++.without-pch bin.v2/libs/wave/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrd-mlt/vsblt-hdn/instantiate_re2c_lexer_str.o
+clang-linux.archive bin.v2/libs/wave/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/libboost_wave.a
+...on 1000th target...
+boost-install.generate-cmake-variant- bin.v2/libs/wave/build/clng-lnx-andrd/rls/lnk-sttc/trgt-os-andrd/thrdp-pthrd/thrd-mlt/vsblt-hdn/libboost_wave-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/cmake/boost_wave-1.76.0/libboost_wave-variant-static.cmake
+common.copy /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib/libboost_wave.a
+...updated 1002 targets...
+
+
+The Boost C++ Libraries were successfully built!
+
+The following directory should be added to compiler include paths:
+
+    /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0
+
+The following directory should be added to linker library paths:
+
+    /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca/boost_1_76_0/armv8/lib
+
+Compiler: /home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android21-clang++
+boost/1.76.0@bashbug/stable: Package '4317d68676204855daddf9e93e50d037f61575ca' built
+boost/1.76.0@bashbug/stable: Build folder /home/p/.conan/data/boost/1.76.0/bashbug/stable/build/4317d68676204855daddf9e93e50d037f61575ca
+boost/1.76.0@bashbug/stable: Generated conaninfo.txt
+boost/1.76.0@bashbug/stable: Generated conanbuildinfo.txt
+boost/1.76.0@bashbug/stable: Generating the package
+boost/1.76.0@bashbug/stable: Package folder /home/p/.conan/data/boost/1.76.0/bashbug/stable/package/4317d68676204855daddf9e93e50d037f61575ca
+boost/1.76.0@bashbug/stable: Calling package()
+boost/1.76.0@bashbug/stable package(): Packaged 14349 '.hpp' files
+boost/1.76.0@bashbug/stable package(): Packaged 147 '.h' files
+boost/1.76.0@bashbug/stable package(): Packaged 253 '.ipp' files
+boost/1.76.0@bashbug/stable package(): Packaged 2 '.pl' files: gen_function_N.pl, gen_maybe_include.pl
+boost/1.76.0@bashbug/stable package(): Packaged 2 '.bat' files: pool_construct.bat, pool_construct_simple.bat
+boost/1.76.0@bashbug/stable package(): Packaged 3 '.m4' files: pool_construct_simple.m4, for.m4, pool_construct.m4
+boost/1.76.0@bashbug/stable package(): Packaged 2 '.sh' files: pool_construct.sh, pool_construct_simple.sh
+boost/1.76.0@bashbug/stable package(): Packaged 1 '.dtd' file: parsetree.dtd
+boost/1.76.0@bashbug/stable package(): Packaged 2 '.re' files: strict_cpp.re, cpp.re
+boost/1.76.0@bashbug/stable package(): Packaged 2 '.inc' files: strict_cpp_re.inc, cpp_re.inc
+boost/1.76.0@bashbug/stable package(): Packaged 2 '.txt' files: CMakeLists.txt, CMakeLists.txt
+boost/1.76.0@bashbug/stable package(): Packaged 17 files
+boost/1.76.0@bashbug/stable package(): Packaged 1 '.natvis' file: json.natvis
+boost/1.76.0@bashbug/stable package(): Packaged 1 '.erb' file: struct_macros.hpp.erb
+boost/1.76.0@bashbug/stable package(): Packaged 1 '.patch' file: ublas_matrix_expression.patch
+boost/1.76.0@bashbug/stable package(): Packaged 1 '.py' file: outcome.gdb.py
+boost/1.76.0@bashbug/stable package(): Packaged 37 '.a' files
+boost/1.76.0@bashbug/stable: Package '4317d68676204855daddf9e93e50d037f61575ca' created
+boost/1.76.0@bashbug/stable: Created package revision 0badbe7b4157cd45d886e1d90321d1cc
+BOOST cross-compiling finished!
+
+
+[1;35mm###########################################
+### PCL cross-compiling start...        ###
+###########################################[m
+
+
+
+
+[1;32m this will run for a while... time to drink a
+
+   ( ( 
+    ) ) 
+  ........ 
+  |      |] 
+  \      /  
+   '----' [m
+
+
+Exporting package recipe
+pcl/1.12.0@bashbug/stable exports_sources: Copied 1 '.patch' file: pcl_binaries.patch
+pcl/1.12.0@bashbug/stable: A new conanfile.py version was exported
+pcl/1.12.0@bashbug/stable: Folder: /home/p/.conan/data/pcl/1.12.0/bashbug/stable/export
+pcl/1.12.0@bashbug/stable: Package recipe modified in export, forcing source folder removal
+pcl/1.12.0@bashbug/stable: Use the --keep-source, -k option to skip it
+pcl/1.12.0@bashbug/stable: Exported revision: 02de6cd015e0e0d703abd1248fad7a00
+Configuration:
+[settings]
+arch=armv8
+arch_build=x86_64
+build_type=Release
+compiler=clang
+compiler.libcxx=libstdc++11
+compiler.version=8
+os=Android
+os.api_level=21
+os_build=Linux
+[options]
+[build_requires]
+*: android-toolchain/r21@bashbug/stable
+[env]
+
+pcl/1.12.0@bashbug/stable: Forced build from source
+Installing package: pcl/1.12.0@bashbug/stable
+Requirements
+    boost/1.76.0@bashbug/stable from local cache - Cache
+    eigen/3.3.9 from 'conancenter' - Cache
+    flann/1.9.1@bashbug/stable from local cache - Cache
+    lz4/1.9.2@bashbug/stable from local cache - Cache
+    pcl/1.12.0@bashbug/stable from local cache - Cache
+Packages
+    boost/1.76.0@bashbug/stable:4317d68676204855daddf9e93e50d037f61575ca - Cache
+    eigen/3.3.9:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Cache
+    flann/1.9.1@bashbug/stable:0ae23ce156a999016ff3644328f7150befab40a6 - Cache
+    lz4/1.9.2@bashbug/stable:4317d68676204855daddf9e93e50d037f61575ca - Cache
+    pcl/1.12.0@bashbug/stable:1dbc8a6a865a8fad699417711b0b0b490d4d2d18 - Build
+Build requirements
+    android-toolchain/r21@bashbug/stable from local cache - Cache
+Build requirements packages
+    android-toolchain/r21@bashbug/stable:be241241e9d4718e5bab4eb33935bbb69606bb0c - Cache
+
+Cross-build from 'Linux:x86_64' to 'Android:armv8'
+Installing (downloading, building) binaries...
+android-toolchain/r21@bashbug/stable: Already installed!
+boost/1.76.0@bashbug/stable: Already installed!
+eigen/3.3.9: Already installed!
+lz4/1.9.2@bashbug/stable: Already installed!
+flann/1.9.1@bashbug/stable: Already installed!
+pcl/1.12.0@bashbug/stable: Applying build-requirement: android-toolchain/r21@bashbug/stable
+pcl/1.12.0@bashbug/stable: Configuring sources in /home/p/.conan/data/pcl/1.12.0/bashbug/stable/source
+pcl/1.12.0@bashbug/stable: Copying sources to build folder
+pcl/1.12.0@bashbug/stable: Building your package in /home/p/.conan/data/pcl/1.12.0/bashbug/stable/build/1dbc8a6a865a8fad699417711b0b0b490d4d2d18
+pcl/1.12.0@bashbug/stable: Generator txt created conanbuildinfo.txt
+pcl/1.12.0@bashbug/stable: Aggregating env generators
+pcl/1.12.0@bashbug/stable: Calling build()
+-- Check for working C compiler: /home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Could NOT find PkgConfig (missing: PKG_CONFIG_EXECUTABLE) 
+-- Could NOT find ClangFormat: Found unsuitable version "9.0.8", but required is at least "10" (found /home/p/.conan/data/android-toolchain/r21/bashbug/stable/package/be241241e9d4718e5bab4eb33935bbb69606bb0c/android-ndk-r21/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-format)
+-- Found OpenMP_C: -fopenmp=libomp (found version "3.1") 
+-- Found OpenMP_CXX: -fopenmp=libomp (found version "3.1") 
+-- Found OpenMP: TRUE (found version "3.1") found components:  C CXX 
+-- Found OpenMP, spec date 201107
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - found
+-- Found Threads: TRUE  
+-- Found Eigen: /home/p/.conan/data/eigen/3.3.9/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /home/p/.conan/data/eigen/3.3.9/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include/eigen3, version: 3.3.9)
+-- Found FLANN: /home/p/.conan/data/flann/1.9.1/bashbug/stable/package/0ae23ce156a999016ff3644328f7150befab40a6/lib/liblz4.a (Required is at least version "1.9.1") 
+-- Could NOT find libusb (missing: libusb_LIBRARIES libusb_INCLUDE_DIR) 
+-- Could NOT find OpenNI (missing: OPENNI_LIBRARIES OPENNI_INCLUDE_DIRS) 
+-- OpenNI grabber support: not building because OpenNI not found
+-- Could NOT find OpenNI2 (missing: OPENNI2_LIBRARIES OPENNI2_INCLUDE_DIRS) 
+-- OpenNI2 grabber support: not building because OpenNI2 not found
+-- Could NOT find Ensenso (missing: ENSENSO_LIBRARIES ENSENSO_INCLUDE_DIRS) 
+-- IDS-Imaging Ensenso camera support: not building because Ensenso not found
+-- Could NOT find davidSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+-- David Vision Systems SDK support: not building because davidSDK not found
+-- Could NOT find DSSDK (missing: DSSDK_LIBRARIES DSSDK_INCLUDE_DIRS) 
+-- DepthSense SDK support: not building because DSSDK not found
+-- Could NOT find RSSDK (missing: RSSDK_LIBRARIES RSSDK_INCLUDE_DIRS) 
+-- RealSense SDK support: not building because RSSDK not found
+-- Could NOT find RSSDK2
+-- RealSense SDK 2.0 (librealsense) support: not building because RSSDK2 not found
+CMake Warning at CMakeLists.txt:386 (find_package):
+  By not providing "FindQt5.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "Qt5", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "Qt5" (requested
+  version 5.9.5) with any of the following names:
+
+    Qt5Config.cmake
+    qt5-config.cmake
+
+  Add the installation prefix of "Qt5" to CMAKE_PREFIX_PATH or set "Qt5_DIR"
+  to a directory containing one of the above files.  If "Qt5" provides a
+  separate development package or SDK, be sure it has been installed.
+
+
+-- Qt5 is not found.
+CMake Warning at /usr/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /usr/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
+  /usr/share/cmake-3.10/Modules/FindBoost.cmake:1558 (_Boost_MISSING_DEPENDENCIES)
+  cmake/pcl_find_boost.cmake:25 (find_package)
+  CMakeLists.txt:421 (include)
+
+
+CMake Warning at /usr/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /usr/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
+  /usr/share/cmake-3.10/Modules/FindBoost.cmake:1558 (_Boost_MISSING_DEPENDENCIES)
+  cmake/pcl_find_boost.cmake:25 (find_package)
+  CMakeLists.txt:421 (include)
+
+
+CMake Warning at /usr/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /usr/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
+  /usr/share/cmake-3.10/Modules/FindBoost.cmake:1558 (_Boost_MISSING_DEPENDENCIES)
+  cmake/pcl_find_boost.cmake:32 (find_package)
+  CMakeLists.txt:421 (include)
+
+
+CMake Warning at /usr/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /usr/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
+  /usr/share/cmake-3.10/Modules/FindBoost.cmake:1558 (_Boost_MISSING_DEPENDENCIES)
+  cmake/pcl_find_boost.cmake:32 (find_package)
+  CMakeLists.txt:421 (include)
+
+
+CMake Warning at /usr/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /usr/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
+  /usr/share/cmake-3.10/Modules/FindBoost.cmake:1558 (_Boost_MISSING_DEPENDENCIES)
+  cmake/pcl_find_boost.cmake:32 (find_package)
+  CMakeLists.txt:421 (include)
+
+
+CMake Warning at /usr/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /usr/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
+  /usr/share/cmake-3.10/Modules/FindBoost.cmake:1558 (_Boost_MISSING_DEPENDENCIES)
+  cmake/pcl_find_boost.cmake:32 (find_package)
+  CMakeLists.txt:421 (include)
+
+
+CMake Warning at /usr/share/cmake-3.10/Modules/FindBoost.cmake:801 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /usr/share/cmake-3.10/Modules/FindBoost.cmake:907 (_Boost_COMPONENT_DEPENDENCIES)
+  /usr/share/cmake-3.10/Modules/FindBoost.cmake:1558 (_Boost_MISSING_DEPENDENCIES)
+  cmake/pcl_find_boost.cmake:32 (find_package)
+  CMakeLists.txt:421 (include)
+
+
+-- Boost version: 1.76.0
+-- Found the following Boost libraries:
+--   filesystem
+--   date_time
+--   iostreams
+--   system
+--   regex
+VTK was found, but cannot be compiled for Android. Please use VES instead.
+-- Could NOT find OpenGL (missing: OPENGL_opengl_LIBRARY OPENGL_glx_LIBRARY OPENGL_INCLUDE_DIR) 
+-- Could NOT find GLEW (missing: GLEW_INCLUDE_DIR GLEW_LIBRARY) 
+-- DOXYGEN_FOUND 
+-- HTML_HELP_COMPILER 
+-- PCL build with following flags:
+-- -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fopenmp=libomp
+-- The following subsystems will be built:
+--   common
+--   kdtree
+--   octree
+--   search
+--   sample_consensus
+--   filters
+--   2d
+--   geometry
+--   io
+--   features
+--   ml
+--   segmentation
+--   surface
+--   registration
+--   keypoints
+--   tracking
+--   recognition
+--   stereo
+--   tools
+-- The following subsystems will not be built:
+--   visualization: VTK was not found.
+--   apps: Disabled by default
+--   benchmarks: Disabled by default
+--   outofcore: Disabled manually.
+--   examples: Code examples are disabled by default.
+--   people: Disabled manually.
+--   simulation: Disabled by default.
+--   global_tests: Disabled by default
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    Boost_THREAD_LIBRARY_DEBUG
+    Boost_THREAD_LIBRARY_RELEASE
+    CMAKE_EXPORT_NO_PACKAGE_REGISTRY
+    CMAKE_INSTALL_BINDIR
+    CMAKE_INSTALL_DATAROOTDIR
+    CMAKE_INSTALL_INCLUDEDIR
+    CMAKE_INSTALL_LIBDIR
+    CMAKE_INSTALL_LIBEXECDIR
+    CMAKE_INSTALL_OLDINCLUDEDIR
+    CMAKE_INSTALL_SBINDIR
+    CONAN_COMPILER
+    CONAN_COMPILER_VERSION
+    CONAN_EXPORTED
+    CONAN_IN_LOCAL_CACHE
+    CONAN_LIBCXX
+    FLANN_INCLUDE_DIRS
+    FLANN_LIBRARIES
+    PCL_BINARIES
+
+
+-- Build files have been written to: /home/p/.conan/data/pcl/1.12.0/bashbug/stable/build/1dbc8a6a865a8fad699417711b0b0b490d4d2d18/armv8
+Scanning dependencies of target pcl_pcd_convert_NaN_nan
+[  1%] Building CXX object io/tools/CMakeFiles/pcl_pcd_convert_NaN_nan.dir/pcd_convert_NaN_nan.cpp.o
+Scanning dependencies of target pcl_io_ply
+[  1%] Building CXX object io/CMakeFiles/pcl_io_ply.dir/src/ply/ply_parser.cpp.o
+Scanning dependencies of target pcl_common
+[  1%] Building CXX object common/CMakeFiles/pcl_common.dir/src/point_types.cpp.o
+[  2%] Building CXX object common/CMakeFiles/pcl_common.dir/src/pcl_base.cpp.o
+[  2%] Building CXX object common/CMakeFiles/pcl_common.dir/src/PCLPointCloud2.cpp.o
+[  2%] Building CXX object common/CMakeFiles/pcl_common.dir/src/io.cpp.o
+[  2%] Building CXX object common/CMakeFiles/pcl_common.dir/src/common.cpp.o
+[  3%] Building CXX object common/CMakeFiles/pcl_common.dir/src/correspondence.cpp.o
+[  3%] Linking CXX executable ../../bin/pcl_pcd_convert_NaN_nan
+[  3%] Built target pcl_pcd_convert_NaN_nan
+[  3%] Building CXX object common/CMakeFiles/pcl_common.dir/src/distances.cpp.o
+[  3%] Building CXX object common/CMakeFiles/pcl_common.dir/src/parse.cpp.o
+[  3%] Building CXX object common/CMakeFiles/pcl_common.dir/src/poses_from_matches.cpp.o
+[  4%] Building CXX object common/CMakeFiles/pcl_common.dir/src/print.cpp.o
+[  4%] Building CXX object common/CMakeFiles/pcl_common.dir/src/projection_matrix.cpp.o
+[  4%] Building CXX object common/CMakeFiles/pcl_common.dir/src/time_trigger.cpp.o
+[  4%] Building CXX object common/CMakeFiles/pcl_common.dir/src/gaussian.cpp.o
+[  5%] Building CXX object common/CMakeFiles/pcl_common.dir/src/colors.cpp.o
+[  5%] Building CXX object common/CMakeFiles/pcl_common.dir/src/feature_histogram.cpp.o
+[  5%] Building CXX object common/CMakeFiles/pcl_common.dir/src/bearing_angle_image.cpp.o
+[  5%] Building CXX object common/CMakeFiles/pcl_common.dir/src/range_image.cpp.o
+[  6%] Building CXX object common/CMakeFiles/pcl_common.dir/src/range_image_planar.cpp.o
+[  6%] Building C object common/CMakeFiles/pcl_common.dir/src/fft/kiss_fft.c.o
+[  6%] Building C object common/CMakeFiles/pcl_common.dir/src/fft/kiss_fftr.c.o
+[  6%] Linking CXX static library ../lib/libpcl_io_ply.a
+[  6%] Built target pcl_io_ply
+Scanning dependencies of target pcl_plyheader
+[  6%] Building CXX object io/tools/ply/CMakeFiles/pcl_plyheader.dir/plyheader.cpp.o
+Scanning dependencies of target pcl_ply2raw
+Scanning dependencies of target pcl_ply2obj
+Scanning dependencies of target pcl_ply2ply
+[  7%] Building CXX object io/tools/ply/CMakeFiles/pcl_ply2raw.dir/ply2raw.cpp.o
+[  7%] Building CXX object io/tools/ply/CMakeFiles/pcl_ply2obj.dir/ply2obj.cpp.o
+[  8%] Building CXX object io/tools/ply/CMakeFiles/pcl_ply2ply.dir/ply2ply.cpp.o
+[  8%] Linking CXX executable ../../../bin/pcl_plyheader
+[  8%] Built target pcl_plyheader
+[  8%] Linking CXX static library ../lib/libpcl_common.a
+[  8%] Built target pcl_common
+Scanning dependencies of target pcl_ml
+Scanning dependencies of target pcl_kdtree
+[  9%] Building CXX object ml/CMakeFiles/pcl_ml.dir/src/point_xy_32i.cpp.o
+[  9%] Building CXX object kdtree/CMakeFiles/pcl_kdtree.dir/src/kdtree_flann.cpp.o
+Scanning dependencies of target pcl_octree
+[ 10%] Building CXX object octree/CMakeFiles/pcl_octree.dir/src/octree_inst.cpp.o
+Scanning dependencies of target pcl_sample_consensus
+[ 10%] Building CXX object sample_consensus/CMakeFiles/pcl_sample_consensus.dir/src/sac.cpp.o
+[ 10%] Building CXX object ml/CMakeFiles/pcl_ml.dir/src/point_xy_32f.cpp.o
+Scanning dependencies of target pcl_io
+[ 10%] Building CXX object io/CMakeFiles/pcl_io.dir/src/debayer.cpp.o
+[ 10%] Building CXX object ml/CMakeFiles/pcl_ml.dir/src/densecrf.cpp.o
+[ 10%] Linking CXX executable ../../../bin/pcl_ply2obj
+[ 11%] Linking CXX executable ../../../bin/pcl_ply2raw
+[ 11%] Building CXX object io/CMakeFiles/pcl_io.dir/src/pcd_grabber.cpp.o
+[ 11%] Built target pcl_ply2obj
+[ 11%] Built target pcl_ply2raw
+[ 11%] Building CXX object ml/CMakeFiles/pcl_ml.dir/src/pairwise_potential.cpp.o
+Scanning dependencies of target pcl_stereo
+[ 11%] Building CXX object stereo/CMakeFiles/pcl_stereo.dir/src/stereo_grabber.cpp.o
+[ 12%] Building CXX object ml/CMakeFiles/pcl_ml.dir/src/permutohedral.cpp.o
+[ 12%] Building CXX object ml/CMakeFiles/pcl_ml.dir/src/svm_wrapper.cpp.o
+[ 12%] Building CXX object stereo/CMakeFiles/pcl_stereo.dir/src/stereo_matching.cpp.o
+[ 12%] Building CXX object ml/CMakeFiles/pcl_ml.dir/src/svm.cpp.o
+[ 12%] Building CXX object ml/CMakeFiles/pcl_ml.dir/src/kmeans.cpp.o
+[ 13%] Building CXX object stereo/CMakeFiles/pcl_stereo.dir/src/stereo_block_based.cpp.o
+[ 14%] Building CXX object io/CMakeFiles/pcl_io.dir/src/pcd_io.cpp.o
+[ 15%] Linking CXX static library ../lib/libpcl_ml.a
+[ 15%] Built target pcl_ml
+[ 16%] Building CXX object sample_consensus/CMakeFiles/pcl_sample_consensus.dir/src/sac_model_circle.cpp.o
+[ 16%] Building CXX object stereo/CMakeFiles/pcl_stereo.dir/src/stereo_adaptive_cost_so.cpp.o
+[ 16%] Building CXX object stereo/CMakeFiles/pcl_stereo.dir/src/disparity_map_converter.cpp.o
+[ 16%] Building CXX object stereo/CMakeFiles/pcl_stereo.dir/src/digital_elevation_map.cpp.o
+[ 16%] Building CXX object io/CMakeFiles/pcl_io.dir/src/vtk_io.cpp.o
+[ 16%] Building CXX object sample_consensus/CMakeFiles/pcl_sample_consensus.dir/src/sac_model_circle3d.cpp.o
+[ 16%] Linking CXX executable ../../../bin/pcl_ply2ply
+[ 16%] Built target pcl_ply2ply
+[ 16%] Building CXX object io/CMakeFiles/pcl_io.dir/src/ply_io.cpp.o
+[ 17%] Linking CXX static library ../lib/libpcl_stereo.a
+[ 17%] Built target pcl_stereo
+[ 17%] Building CXX object sample_consensus/CMakeFiles/pcl_sample_consensus.dir/src/sac_model_cylinder.cpp.o
+[ 18%] Building CXX object io/CMakeFiles/pcl_io.dir/src/ascii_io.cpp.o
+[ 18%] Building CXX object sample_consensus/CMakeFiles/pcl_sample_consensus.dir/src/sac_model_cone.cpp.o
+[ 18%] Building CXX object io/CMakeFiles/pcl_io.dir/src/compression.cpp.o
+[ 19%] Linking CXX static library ../lib/libpcl_kdtree.a
+[ 19%] Built target pcl_kdtree
+[ 20%] Building CXX object sample_consensus/CMakeFiles/pcl_sample_consensus.dir/src/sac_model_line.cpp.o
+[ 20%] Building CXX object io/CMakeFiles/pcl_io.dir/src/lzf.cpp.o
+[ 20%] Building CXX object io/CMakeFiles/pcl_io.dir/src/lzf_image_io.cpp.o
+[ 21%] Building CXX object io/CMakeFiles/pcl_io.dir/src/obj_io.cpp.o
+[ 21%] Building CXX object io/CMakeFiles/pcl_io.dir/src/ifs_io.cpp.o
+[ 21%] Linking CXX static library ../lib/libpcl_octree.a
+[ 21%] Built target pcl_octree
+Scanning dependencies of target pcl_search
+[ 21%] Building CXX object search/CMakeFiles/pcl_search.dir/src/search.cpp.o
+[ 21%] Building CXX object io/CMakeFiles/pcl_io.dir/src/image_grabber.cpp.o
+[ 22%] Building CXX object search/CMakeFiles/pcl_search.dir/src/kdtree.cpp.o
+[ 22%] Building CXX object sample_consensus/CMakeFiles/pcl_sample_consensus.dir/src/sac_model_parallel_line.cpp.o
+[ 22%] Building CXX object sample_consensus/CMakeFiles/pcl_sample_consensus.dir/src/sac_model_stick.cpp.o
+[ 22%] Building CXX object io/CMakeFiles/pcl_io.dir/src/hdl_grabber.cpp.o
+[ 22%] Building CXX object search/CMakeFiles/pcl_search.dir/src/brute_force.cpp.o
+[ 22%] Building CXX object search/CMakeFiles/pcl_search.dir/src/organized.cpp.o
+[ 23%] Building CXX object io/CMakeFiles/pcl_io.dir/src/vlp_grabber.cpp.o
+[ 23%] Building CXX object sample_consensus/CMakeFiles/pcl_sample_consensus.dir/src/sac_model_normal_parallel_plane.cpp.o
+[ 23%] Building CXX object io/CMakeFiles/pcl_io.dir/src/robot_eye_grabber.cpp.o
+[ 23%] Building CXX object search/CMakeFiles/pcl_search.dir/src/octree.cpp.o
+[ 24%] Building CXX object sample_consensus/CMakeFiles/pcl_sample_consensus.dir/src/sac_model_normal_plane.cpp.o
+[ 24%] Building CXX object io/CMakeFiles/pcl_io.dir/src/auto_io.cpp.o
+[ 24%] Building CXX object io/CMakeFiles/pcl_io.dir/src/io_exception.cpp.o
+[ 24%] Building CXX object sample_consensus/CMakeFiles/pcl_sample_consensus.dir/src/sac_model_normal_sphere.cpp.o
+[ 24%] Building CXX object sample_consensus/CMakeFiles/pcl_sample_consensus.dir/src/sac_model_plane.cpp.o
+[ 25%] Linking CXX static library ../lib/libpcl_io.a
+[ 25%] Built target pcl_io
+[ 26%] Linking CXX static library ../lib/libpcl_search.a
+Scanning dependencies of target pcl_pcd_introduce_nan
+[ 26%] Building CXX object io/tools/CMakeFiles/pcl_pcd_introduce_nan.dir/pcd_introduce_nan.cpp.o
+[ 26%] Built target pcl_search
+Scanning dependencies of target pcl_convert_pcd_ascii_binary
+[ 26%] Building CXX object io/tools/CMakeFiles/pcl_convert_pcd_ascii_binary.dir/convert_pcd_ascii_binary.cpp.o
+[ 27%] Linking CXX executable ../../bin/pcl_convert_pcd_ascii_binary
+[ 27%] Built target pcl_convert_pcd_ascii_binary
+Scanning dependencies of target pcl_hdl_grabber
+[ 28%] Building CXX object io/tools/CMakeFiles/pcl_hdl_grabber.dir/hdl_grabber_example.cpp.o
+[ 28%] Linking CXX executable ../../bin/pcl_pcd_introduce_nan
+[ 28%] Built target pcl_pcd_introduce_nan
+[ 29%] Building CXX object sample_consensus/CMakeFiles/pcl_sample_consensus.dir/src/sac_model_registration.cpp.o
+Scanning dependencies of target pcl_surface
+[ 29%] Building CXX object surface/CMakeFiles/pcl_surface.dir/src/processing.cpp.o
+[ 29%] Building CXX object surface/CMakeFiles/pcl_surface.dir/src/ear_clipping.cpp.o
+[ 29%] Building CXX object surface/CMakeFiles/pcl_surface.dir/src/gp3.cpp.o
+[ 29%] Linking CXX executable ../../bin/pcl_hdl_grabber
+[ 29%] Built target pcl_hdl_grabber
+Scanning dependencies of target pcl_generate
+[ 29%] Building CXX object tools/CMakeFiles/pcl_generate.dir/generate.cpp.o
+[ 29%] Building CXX object sample_consensus/CMakeFiles/pcl_sample_consensus.dir/src/sac_model_sphere.cpp.o
+[ 29%] Linking CXX executable ../bin/pcl_generate
+[ 29%] Built target pcl_generate
+Scanning dependencies of target pcl_compute_hausdorff
+[ 29%] Building CXX object tools/CMakeFiles/pcl_compute_hausdorff.dir/compute_hausdorff.cpp.o
+[ 30%] Building CXX object surface/CMakeFiles/pcl_surface.dir/src/grid_projection.cpp.o
+[ 31%] Linking CXX executable ../bin/pcl_compute_hausdorff
+../lib/libpcl_kdtree.a(kdtree_flann.cpp.o): In function `flann::serialization::SaveArchive::initBlock()':
+/home/p/.conan/data/flann/1.9.1/bashbug/stable/package/0ae23ce156a999016ff3644328f7150befab40a6/include/flann/util/serialization.h:406: undefined reference to `LZ4_resetStreamHC'
+../lib/libpcl_kdtree.a(kdtree_flann.cpp.o): In function `flann::serialization::SaveArchive::flushBlock()':
+/home/p/.conan/data/flann/1.9.1/bashbug/stable/package/0ae23ce156a999016ff3644328f7150befab40a6/include/flann/util/serialization.h:425: undefined reference to `LZ4_compress_HC_continue'
+/home/p/.conan/data/flann/1.9.1/bashbug/stable/package/0ae23ce156a999016ff3644328f7150befab40a6/include/flann/util/serialization.h:443: undefined reference to `LZ4_compress_HC_continue'
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+tools/CMakeFiles/pcl_compute_hausdorff.dir/build.make:113: recipe for target 'bin/pcl_compute_hausdorff' failed
+make[2]: *** [bin/pcl_compute_hausdorff] Error 1
+CMakeFiles/Makefile2:1977: recipe for target 'tools/CMakeFiles/pcl_compute_hausdorff.dir/all' failed
+make[1]: *** [tools/CMakeFiles/pcl_compute_hausdorff.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 31%] Building CXX object surface/CMakeFiles/pcl_surface.dir/src/marching_cubes.cpp.o
+[ 31%] Building CXX object surface/CMakeFiles/pcl_surface.dir/src/marching_cubes_hoppe.cpp.o
+[ 31%] Building CXX object surface/CMakeFiles/pcl_surface.dir/src/marching_cubes_rbf.cpp.o
+[ 32%] Building CXX object surface/CMakeFiles/pcl_surface.dir/src/bilateral_upsampling.cpp.o
+[ 32%] Building CXX object surface/CMakeFiles/pcl_surface.dir/src/mls.cpp.o
+[ 32%] Building CXX object surface/CMakeFiles/pcl_surface.dir/src/organized_fast_mesh.cpp.o
+[ 32%] Building CXX object surface/CMakeFiles/pcl_surface.dir/src/simplification_remove_unused_vertices.cpp.o
+[ 33%] Building CXX object surface/CMakeFiles/pcl_surface.dir/src/surfel_smoothing.cpp.o
+[ 33%] Building CXX object surface/CMakeFiles/pcl_surface.dir/src/texture_mapping.cpp.o
+[ 33%] Building CXX object surface/CMakeFiles/pcl_surface.dir/src/poisson.cpp.o
+[ 34%] Building CXX object surface/CMakeFiles/pcl_surface.dir/src/3rdparty/poisson4/bspline_data.cpp.o
+[ 34%] Building CXX object surface/CMakeFiles/pcl_surface.dir/src/3rdparty/poisson4/factor.cpp.o
+[ 34%] Building CXX object surface/CMakeFiles/pcl_surface.dir/src/3rdparty/poisson4/geometry.cpp.o
+[ 34%] Building CXX object surface/CMakeFiles/pcl_surface.dir/src/3rdparty/poisson4/marching_cubes_poisson.cpp.o
+[ 34%] Linking CXX static library ../lib/libpcl_sample_consensus.a
+[ 34%] Built target pcl_sample_consensus
+[ 35%] Linking CXX static library ../lib/libpcl_surface.a
+[ 35%] Built target pcl_surface
+Makefile:129: recipe for target 'all' failed
+make: *** [all] Error 2
+pcl/1.12.0@bashbug/stable: 
+pcl/1.12.0@bashbug/stable: WARN: Build folder is dirty, removing it: /home/p/.conan/data/pcl/1.12.0/bashbug/stable/build/1dbc8a6a865a8fad699417711b0b0b490d4d2d18
+pcl/1.12.0@bashbug/stable: ERROR: Package '1dbc8a6a865a8fad699417711b0b0b490d4d2d18' build failed
+pcl/1.12.0@bashbug/stable: WARN: Build folder /home/p/.conan/data/pcl/1.12.0/bashbug/stable/build/1dbc8a6a865a8fad699417711b0b0b490d4d2d18
+ERROR: pcl/1.12.0@bashbug/stable: Error in build() method, line 80
+	cmake.build()
+	ConanException: Error 2 while executing cmake --build '/home/p/.conan/data/pcl/1.12.0/bashbug/stable/build/1dbc8a6a865a8fad699417711b0b0b490d4d2d18/armv8' '--' '-j8'
